@@ -1,3 +1,23 @@
 h1 {
-    background: beige ;
+    background: #d46bff ;
+}
+
+
+
+.fa:hover {
+    opacity: 0.6;
+}
+
+.fa-instagram {
+    background: darkmagenta;
+    color: white;
+}
+
+.fa {
+    padding: 0%;
+    font-size: 30%;
+    width: 2%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15%;
 }
