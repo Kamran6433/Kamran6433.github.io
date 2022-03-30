@@ -1,51 +1,58 @@
 h1 {
-    border-style: none;
+    border: 1px solid;
     padding: 5%;
     font-family: 'Fredoka One', cursive;
     font-weight: lighter;
     text-align: center;
 }
+h1:hover {
+    opacity: 0.5;
+    transition: word-spacing 2ms;
+}
 #Background\ Image {
-    border-style: none;
+    margin-top: -22px;
+    margin-right: -8px;
+    margin-left: -8px;
+    border: 1px solid;
     padding: 5%;
     text-align: center;
 }
 p {
+    border: 1px solid;
     font-family: 'M PLUS 1p', sans-serif;
     padding: 10%;
-    border-style: none;
     text-align: center;
 }
 #NUSU\ Button {
+    border: 1px solid;
     font-family: 'M PLUS 1p', sans-serif;
-    border-style: none;
     padding: 5%;
     text-align: center;
+    margin: auto;
 }
 #Instagram\ Button {
-    border-style: none;
+    border: 1px solid;
+    font-family: 'M PLUS 1p', sans-serif;
     padding: 5%;
     text-align: center;
+    margin: auto;
 }
 #Form {
+    border: 1px solid;
     font-family: 'M PLUS 1p', sans-serif;
     font-weight: bolder;
-    border-style: none;
     padding: 5%;
     text-align: center;
 }
 .fa:hover {
     opacity: 0.6;
 }
-
 .fa-instagram {
     background: darkmagenta;
     color: white;
 }
-
 .fa {
-    padding: 5%;
-    font-size: 30%;
+    padding: 2%;
     width: 2%;
     text-align: center;
     text-decoration: none;
