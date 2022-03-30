@@ -1,13 +1,39 @@
 h1 {
-    background: #d46bff ;
+    border-style: none;
+    padding: 5%;
     font-family: 'Fredoka One', cursive;
     font-weight: lighter;
+    text-align: center;
 }
-
+#Background\ Image {
+    border-style: none;
+    padding: 5%;
+    text-align: center;
+}
 p {
-    font-family: "Indie Flower", cursive;
+    font-family: 'M PLUS 1p', sans-serif;
+    padding: 10%;
+    border-style: none;
+    text-align: center;
 }
-
+#NUSU\ Button {
+    font-family: 'M PLUS 1p', sans-serif;
+    border-style: none;
+    padding: 5%;
+    text-align: center;
+}
+#Instagram\ Button {
+    border-style: none;
+    padding: 5%;
+    text-align: center;
+}
+#Form {
+    font-family: 'M PLUS 1p', sans-serif;
+    font-weight: bolder;
+    border-style: none;
+    padding: 5%;
+    text-align: center;
+}
 .fa:hover {
     opacity: 0.6;
 }
