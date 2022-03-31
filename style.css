@@ -1,44 +1,62 @@
+/*use transform*/
 h1 {
-    border: 1px solid;
-    padding: 5%;
+    background-color: lavender;
+    top: -31px;
+    left: 0px;
+    right: 0px;
+    /*border: 1px solid;*/
+    padding: 2.3%;
     font-family: 'Fredoka One', cursive;
     font-weight: lighter;
     text-align: center;
+    position: fixed;
+    transition: transform 1s, 1s;
+    will-change: transition;
 }
-h1:hover {
-    opacity: 0.5;
-    transition: word-spacing 2ms;
+h1:hover{
+    transform: translateY(10px); background-color: #e6caff;
+    transition-duration: 1s, 1s;
+    animation: hoverEnlarge;
+}
+
+@keyframes hoverEnlarge {
+    /*0%{font-size: 32px;}*/
+    /*100%{font-size: 35px;}*/
+    0%{background-color: lavender;}
+    100%{background-color: #e6caff}
 }
 #Background\ Image {
-    margin-top: -22px;
+    margin-top: 50px;
     margin-right: -8px;
     margin-left: -8px;
-    border: 1px solid;
+    /*border: 1px solid;*/
     padding: 5%;
     text-align: center;
 }
 p {
-    border: 1px solid;
+    /*border: 1px solid;*/
+    background-color: aliceblue;
     font-family: 'M PLUS 1p', sans-serif;
     padding: 10%;
     text-align: center;
 }
 #NUSU\ Button {
-    border: 1px solid;
+    /*border: 1px solid;*/
     font-family: 'M PLUS 1p', sans-serif;
     padding: 5%;
     text-align: center;
     margin: auto;
 }
 #Instagram\ Button {
-    border: 1px solid;
+    /*border: 1px solid;*/
     font-family: 'M PLUS 1p', sans-serif;
     padding: 5%;
     text-align: center;
     margin: auto;
 }
 #Form {
-    border: 1px solid;
+    /*border: 1px solid;*/
+    background-color: azure;
     font-family: 'M PLUS 1p', sans-serif;
     font-weight: bolder;
     padding: 5%;
