@@ -99,3 +99,19 @@ a.NUSU:hover {
     text-decoration: none;
     border-radius: 15%;
 }
+h2 {
+    font-family: 'Fredoka One', cursive;
+    font-weight: lighter;
+    text-align: center;
+}
+.cards {
+    background-color: aquamarine;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+}
+.cards > div{
+    background-color: coral;
+    border: 2px solid purple;
+}
