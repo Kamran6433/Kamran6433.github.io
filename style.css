@@ -5,6 +5,12 @@
 #header {
     opacity: 0.9;
 }
+.website {
+    border: 2px solid black;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
 h1 {
     background-color: lavender;
     top: -31px;
@@ -16,6 +22,8 @@ h1 {
     font-family: 'Fredoka One', cursive;
     font-weight: lighter;
     text-align: center;
+    /*position: -webkit-sticky;*/
+    /*position: sticky;*/
     position: fixed;
     transition: transform 1s, 1s;
     will-change: transition;
@@ -25,24 +33,27 @@ h1:hover{
     transition-duration: 1s, 1s;
     animation: hoverEnlarge;
 }
-
 @keyframes hoverEnlarge {
     /*0%{font-size: 32px;}*/
     /*100%{font-size: 35px;}*/
     0%{background-color: lavender;}
     100%{background-color: #e6caff}
 }
-.container {
-    float: inside;
-}
-#Background\ Image {
-    margin-top: 27px;
-    margin-right: -8px;
-    margin-left: -8px;
-    /*border: 1px solid;*/
-    padding: 5%;
+.box {
     text-align: center;
+    margin: 70px 10px 20px 1px;
+    max-width: 800px;
+    height: 900px;
+    border: 2px solid black;
+    background-image: url(../Kamran6433.github.io/Images/Events%20Management%20festival%20image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*position: relative;*/
 }
+/*.box img {*/
+/*    object-fit: cover;*/
+/*    border: blue 2px dashed;*/
+/*}*/
 p {
     /*border: 1px solid;*/
     background-color: aliceblue;
@@ -63,6 +74,7 @@ a.NUSU {
     padding: 12px;
     text-align: center;
     margin: auto;
+    width: auto;
     border-radius: 55px;
     box-shadow: 0px 1px 2.5px black;
     transition: transform 1s;
@@ -70,13 +82,6 @@ a.NUSU {
 a.NUSU:hover {
     transform: translateY(5px);
     box-shadow: 0px 1px 5px black;
-}
-#Instagram\ Button {
-    /*border: 1px solid;*/
-    font-family: 'M PLUS 1p', sans-serif;
-    padding: 5%;
-    text-align: center;
-    margin: auto;
 }
 #Form {
     /*border: 1px solid;*/
@@ -115,4 +120,7 @@ h2 {
 .cards > div{
     background-color: coral;
     border: 2px solid purple;
+}
+.elfsight-app-ec5d8c40-6249-4a5e-beab-c1b81d2eff9c {
+    z-index: 0;
 }
