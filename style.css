@@ -3,10 +3,9 @@
 /*Grid*/
 /*Learn header and footer tags in HTML*/
 #header {
-    opacity: 0.9;
+    opacity: 0.2;
 }
 .website {
-    border: 2px solid black;
     max-width: 1200px;
     margin: auto;
     text-align: center;
@@ -39,16 +38,31 @@ h1:hover{
     0%{background-color: lavender;}
     100%{background-color: #e6caff}
 }
-.box {
-    text-align: center;
-    margin: 70px 10px 20px 1px;
-    max-width: 800px;
-    height: 900px;
-    border: 2px solid black;
-    background-image: url(../Kamran6433.github.io/Images/Events%20Management%20festival%20image.jpg);
+.image {
+    /*background-image: url(../Kamran6433.github.io/Images/Events%20Management%20festival%20image.jpg);*/
     background-repeat: no-repeat;
-    background-size: cover;
-    /*position: relative;*/
+    border: solid 2px black;
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+    max-width: 100%;
+    max-height: 100%;
+    ima
+}
+.box {
+    position: relative;
+    text-align: center;
+    margin: 70px 0px 0px 0px;
+    max-width: 1200px;
+    height: 700px;
+    /*background-image: url(../Kamran6433.github.io/Images/Events%20Management%20festival%20image.jpg);*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    /*filter: blur(4px);*/
+    /*-webkit-filter: blur(4px);*/
+}
+.button {
+    position: relative;
+    translate: 100px;
 }
 /*.box img {*/
 /*    object-fit: cover;*/
@@ -66,6 +80,7 @@ p {
 }
 a.NUSU {
     /*border: 1px solid;*/
+    position: relative;
     font-family: 'Fredoka One', cursive;
     border: lavender solid;
     text-decoration: none;
@@ -97,10 +112,11 @@ a.NUSU:hover {
 .fa-instagram {
     background: darkmagenta;
     color: white;
+    border: chartreuse solid 2px;
+    width: 135px;
+    position: relative;
 }
 .fa {
-    padding: 2%;
-    width: 2%;
     text-align: center;
     text-decoration: none;
     border-radius: 15%;
