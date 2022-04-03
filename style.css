@@ -42,11 +42,10 @@ h1:hover{
     /*background-image: url(../Kamran6433.github.io/Images/Events%20Management%20festival%20image.jpg);*/
     background-repeat: no-repeat;
     border: solid 2px black;
-    filter: blur(4px);
-    -webkit-filter: blur(4px);
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
     max-width: 100%;
     max-height: 100%;
-    ima
 }
 .box {
     position: relative;
@@ -133,9 +132,16 @@ h2 {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1em;
 }
-.cards > div{
+.committee{
     background-color: coral;
     border: 2px solid purple;
+    transition: tramsform 1s;
+    transition-duration: 1s;
+    /*this transition needs fixing*/
+}
+.committee:hover {
+    transform: scale(110%);
+    transition-duration: 1s;
 }
 .elfsight-app-ec5d8c40-6249-4a5e-beab-c1b81d2eff9c {
     z-index: 0;
