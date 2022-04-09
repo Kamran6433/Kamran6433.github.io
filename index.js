@@ -9,6 +9,24 @@ let number = 67; //number
 // console.log(username);
 
 
+var background = ["../Kamran6433.github.io/Images/NCLCampus2.jpg",
+    "../Kamran6433.github.io/Images/NCLCampus.jpg",
+    "../Kamran6433.github.io/Images/Catalyst.jpg"];
+var i = 0;
+
+function changeImg() {
+    document.slide.src = background[i];
+
+    if (i < background.length - 1) {
+        i++;
+    }
+    else {
+        i = 0;
+    }
+    setTimeout("changeImg()", 5000);
+}
+window.onload = changeImg;
+
 let instagramAccount;
 let firstName;
 let lastName;

@@ -28,7 +28,8 @@ h1 {
     will-change: transition;
 }
 h1:hover{
-    transform: translateY(10px); background-color: #e6caff;
+    transform: translateY(10px);
+    background-color: #e6caff;
     transition-duration: 1s, 1s;
     animation: hoverEnlarge;
 }
@@ -39,18 +40,22 @@ h1:hover{
     100%{background-color: #e6caff}
 }
 .image {
-    /*background-image: url(../Kamran6433.github.io/Images/Events%20Management%20festival%20image.jpg);*/
+    /*border: dashed 2px red;*/
     background-repeat: no-repeat;
-    border: solid 2px black;
-    filter: blur(3px);
-    -webkit-filter: blur(3px);
-    max-width: 100%;
-    max-height: 100%;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+    /*width: 100%;*/
 }
 .box {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     position: relative;
     text-align: center;
-    margin: 70px 0px 0px 0px;
+    margin: 70px auto 0px auto;
     max-width: 1200px;
     height: 700px;
     /*background-image: url(../Kamran6433.github.io/Images/Events%20Management%20festival%20image.jpg);*/
@@ -59,14 +64,25 @@ h1:hover{
     /*filter: blur(4px);*/
     /*-webkit-filter: blur(4px);*/
 }
-.button {
-    position: relative;
-    translate: 100px;
+.box img {
+
+    /*width: 100%;*/
+    /*height: 100%;*/
 }
-/*.box img {*/
-/*    object-fit: cover;*/
-/*    border: blue 2px dashed;*/
-/*}*/
+.box a {
+    border: chartreuse 3px solid;
+    position: absolute;
+    align-content: center;
+    top: 50%;
+    left: 50%;
+}
+button {
+    border: chartreuse 3px solid;
+    position: absolute;
+    align-content: center;
+    top: 50%;
+    left: 50%;
+}
 p {
     /*border: 1px solid;*/
     background-color: aliceblue;
@@ -79,7 +95,6 @@ p {
 }
 a.NUSU {
     /*border: 1px solid;*/
-    position: relative;
     font-family: 'Fredoka One', cursive;
     border: lavender solid;
     text-decoration: none;
@@ -94,8 +109,11 @@ a.NUSU {
     transition: transform 1s;
 }
 a.NUSU:hover {
-    transform: translateY(5px);
+    transform: translateY(10px);
     box-shadow: 0px 1px 5px black;
+    border: #e6caff solid;
+    color: #e6caff;
+    transition-duration: 1s, 1s;
 }
 #Form {
     /*border: 1px solid;*/
@@ -126,23 +144,17 @@ h2 {
     text-align: center;
 }
 .cards {
-    background-color: aquamarine;
+    background-color: #f5f5f5;
     border: 2px solid black;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1em;
 }
 .committee{
-    background-color: coral;
+    background-color: #f5f5f5;
     border: 2px solid purple;
-    transition: tramsform 1s;
-    transition-duration: 1s;
-    /*this transition needs fixing*/
+    transition: transform 0.3s;
 }
 .committee:hover {
     transform: scale(110%);
-    transition-duration: 1s;
-}
-.elfsight-app-ec5d8c40-6249-4a5e-beab-c1b81d2eff9c {
-    z-index: 0;
 }
