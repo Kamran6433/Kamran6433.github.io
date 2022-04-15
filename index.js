@@ -59,7 +59,7 @@ const committeeCarousel = [document.getElementsByClassName("committee")];
 // console.log(committeeCarousel);
 
 var swiper = new Swiper(".mySwiper", {
-    spaceBetween: 30,
+    spaceBetween: 50,
     centeredSlides: true,
     autoplay: {
         delay: 100000000000,
