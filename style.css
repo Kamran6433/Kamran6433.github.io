@@ -121,7 +121,7 @@ a.NUSU {
     padding: 12px;
     text-align: center;
     margin: auto;
-    /*border-radius: 55px;*/
+    border-radius: 10px;
     box-shadow: 0 0 4px black;
     transition: 0.3s ease-in;
 }
@@ -148,7 +148,7 @@ a.NUSU:hover {
     color: white;
     text-align: center;
     text-decoration: none;
-    /*border-radius: 20px;*/
+    border-radius: 10px;
     transition-duration: 0.5s;
     width: 135px;
     position: relative;
@@ -235,7 +235,7 @@ h2 {
     position: fixed;
     bottom: 45%;
     right: -77px;
-    padding: 15px 30px;
+    padding: 12px 24px;
     border-radius: 10px 10px 0 0;
     background-color: #d6249f;
     transform: rotate(-90deg);
