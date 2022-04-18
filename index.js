@@ -2,9 +2,9 @@
 // let username = window.prompt("what is your name?");
 // console.log(username);
 
-const background = ["../Kamran6433.github.io/Images/NCLCampus2.jpg",
-    "../Kamran6433.github.io/Images/NCLCampus.jpg",
-    "../Kamran6433.github.io/Images/Catalyst.jpg"];
+const background = ["Images/NCLCampus2.jpg",
+    "Images/NCLCampus.jpg",
+    "Images/Catalyst.jpg"];
 let i = 0;
 
 function changeImg() {
