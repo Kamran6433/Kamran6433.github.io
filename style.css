@@ -5,7 +5,7 @@
 /*I need the Logo*/
 /*possibly some pictures of the committee unless i can find them myself the ones from instagram wont suffice*/
 #header {
-    opacity: 0.97;
+    opacity: 0.98;
 }
 form {
     position: relative;
@@ -40,31 +40,24 @@ footer {
 h1 {
     color: white;
     background-color: #343434;
-    top: -32px;
+    top: -25px;
     left: 0px;
     right: 0px;
     box-shadow: 0px 15px 40px rgba(199,21,133,0.2);
-    padding: 16px;
+    padding: 15px;
     font-family: 'Fredoka One', cursive;
     font-weight: lighter;
     text-align: center;
     position: fixed;
-    transition: transform 1s, 1s;
-    will-change: transition;
 }
-h1:hover{
-    transform: translateY(10px);
-    background-color: #e6caff;
-    transition-duration: 1s, 1s;
-    animation: hoverEnlarge;
-}
-@keyframes hoverEnlarge {
-    0%{background-color: lavender;}
-    100%{background-color: #e6caff}
+.opening {
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    color: white;
 }
 .button{
     position: relative;
-    bottom: 50%;
+    bottom: 75%;
     margin-bottom: 60px;
 }
 .image {
@@ -156,10 +149,9 @@ a.NUSU:hover {
 .fa-envelope {
     color: white;
 }
-h2 {
-    font-family: 'Fredoka One', cursive;
+.h2 {
+    font-family: 'Montserrat', sans-serif;
     color: mediumvioletred;
-    font-weight: lighter;
     text-align: center;
 }
 .outerCard {
@@ -233,18 +225,11 @@ h2 {
     color: white;
     text-decoration: none;
     position: fixed;
-    bottom: 45%;
+    bottom: 75%;
     right: -77px;
-    padding: 12px 24px;
+    padding: 11px 22px;
     border-radius: 10px 10px 0 0;
     background-color: #d6249f;
     transform: rotate(-90deg);
     box-shadow: 0 0 7px black;
 }
-/*.sideTab:hover {*/
-/*    transform: translateX(10px);*/
-/*}*/
-/*.elfsight {*/
-/*    z-index: 0;*/
-/*    border: #d6249f dashed 2px;*/
-/*}*/

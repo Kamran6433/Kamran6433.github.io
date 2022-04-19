@@ -1,6 +1,6 @@
-//accepting user input
+// accepting user input
 // let username = window.prompt("what is your name?");
-// console.log(username);
+// console.log("username");
 
 const background = ["Images/NCLCampus2.jpg",
     "Images/NCLCampus.jpg",
@@ -56,7 +56,6 @@ function throttle(fn, delay) {
 }
 
 const committeeCarousel = [document.getElementsByClassName("committee")];
-// console.log(committeeCarousel);
 
 var swiper = new Swiper(".mySwiper", {
     spaceBetween: 70,
