@@ -5,7 +5,7 @@
 /*I need the Logo*/
 /*possibly some pictures of the committee unless i can find them myself the ones from instagram wont suffice*/
 html {
-    background-color: #343434;
+    /*background-color: #343434;*/
 }
 body {
     background-color: white;
@@ -41,8 +41,8 @@ footer {
     text-align: center;
 }
 h1 {
-    color: white;
-    background-color: #343434;
+    color: #343434;
+    background-color: white;
     top: -25px;
     left: 0;
     right: 0;
