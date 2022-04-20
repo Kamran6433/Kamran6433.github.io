@@ -255,7 +255,7 @@ h2 {
     color: white;
     text-decoration: none;
     position: fixed;
-    bottom: 60%;
+    bottom: 50%;
     right: -6px;
     padding: 10px 15px;
     border-radius: 10px 10px 0 0;
@@ -266,24 +266,23 @@ h2 {
 .notification {
     opacity: 0.8;
     position: fixed;
-    bottom: 62%;
+    bottom: 57%;
     right: 10px;
-    width: 80px;
-    height: 80px;
-    margin: 50px auto;
+    width: 100px;
+    height: 100px;
     border: #343434 2px solid;
     background: #00bfb6;
-    padding: 0px;
+    padding: 0px 3px 0px 3px;
     text-align: center;
-    font-weight: 900;
+    font-weight: 800;
     font-size: smaller;
     color: #fff;
     font-family: arial, sans-serif;
 }
 .notification:before {
     content: "";
-    width: 0px;
-    height: 0px;
+    /*width: 0px;*/
+    /*height: 0px;*/
     position: absolute;
     border-left: 10px solid transparent;
     border-right: 10px solid #00bfb6;
@@ -293,16 +292,16 @@ h2 {
     bottom: -19px;
 }
 .notification p {
-
 }
 .close-button {
     background: grey;
     border: 0;
-    padding: 0px 3px 0px 3px;
+    padding: 0 3px 0 3px;
     border-radius: 50%;
-    position: relative;
-    top: 15px;
-    right: -30px;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    margin: 0;
 }
 .close-button:hover {
     background: #343434;
