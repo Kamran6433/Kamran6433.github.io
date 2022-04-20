@@ -228,11 +228,49 @@ a.NUSU:hover {
     color: white;
     text-decoration: none;
     position: fixed;
-    bottom: 69%;
+    bottom: 60%;
     right: -6px;
     padding: 10px 15px;
     border-radius: 10px 10px 0 0;
     background-color: #d6249f;
     transform: rotate(-90deg);
     box-shadow: 0 0 7px black;
+}
+.notification {
+    opacity: 0.8;
+    position: fixed;
+    bottom: 62%;
+    right: 5px;
+    width: 80px;
+    height: 80px;
+    margin: 50px auto;
+    background: #00bfb6;
+    padding: 0px;
+    text-align: center;
+    font-weight: 900;
+    font-size: smaller;
+    color: #fff;
+    font-family: arial, sans-serif;
+}
+.notification:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid #00bfb6;
+    border-top: 10px solid #00bfb6;
+    border-bottom: 10px solid transparent;
+    right: 19px;
+    bottom: -19px;
+}
+.notification p {
+
+}
+.close-button {
+    background: #00bfb6;
+    border: 0;
+    position: relative;
+    top: 15px;
+    right: -30px;
 }
