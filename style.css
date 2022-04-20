@@ -27,8 +27,6 @@ form {
     padding: 10px;
 }
 footer {
-    background-image: url("Images/BackgroundImagePacSoc.jpeg");
-    background-size: cover, 100px 100px;
     margin: auto;
     bottom: 0%;
     left: 0%;
@@ -180,8 +178,11 @@ a.NUSU:hover {
 .fa-envelope {
     color: white;
 }
+h2 {
+    font-family: 'Fredoka One', cursive;
+    font-weight: lighter;
+}
 .h2 {
-    font-family: 'Montserrat', sans-serif;
     color: mediumvioletred;
     text-align: center;
 }
@@ -251,7 +252,6 @@ a.NUSU:hover {
     color: white;
 }
 .sideTab {
-    /*font-family: 'Fredoka One', cursive;*/
     color: white;
     text-decoration: none;
     position: fixed;
@@ -271,6 +271,7 @@ a.NUSU:hover {
     width: 80px;
     height: 80px;
     margin: 50px auto;
+    border: #343434 2px solid;
     background: #00bfb6;
     padding: 0px;
     text-align: center;
