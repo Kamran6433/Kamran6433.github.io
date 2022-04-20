@@ -224,13 +224,13 @@ a.NUSU:hover {
     color: white;
 }
 .sideTab {
-    font-family: 'Fredoka One', cursive;
+    /*font-family: 'Fredoka One', cursive;*/
     color: white;
     text-decoration: none;
     position: fixed;
     bottom: 69%;
-    right: -77px;
-    padding: 11px 22px;
+    right: -6px;
+    padding: 10px 15px;
     border-radius: 10px 10px 0 0;
     background-color: #d6249f;
     transform: rotate(-90deg);
