@@ -4,7 +4,8 @@
 
 const background = ["Images/NCLCampus2.jpg",
     "Images/NCLCampus.jpg",
-    "Images/Catalyst.jpg"];
+    "Images/Catalyst.jpg",
+    "Images/BackgroundImagePacSoc.jpeg"];
 let i = 0;
 
 function changeImg() {
