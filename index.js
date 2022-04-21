@@ -27,12 +27,20 @@ function changeImg() {
 window.onload = changeImg;
 
 const aosElements = Array.from(document.querySelectorAll('.aos'));
+const buttonElements = Array.from(document.querySelectorAll('.button'))
 
 window.addEventListener('scroll', throttle(scanElements, 50))
 
 function scanElements(e) {
     console.count(e);
     aosElements.forEach(element => {
+        if(isVisible(element)) {
+            element.classList.add('active');
+        } else {
+            element.classList.remove('active');
+        }
+    })
+    buttonElements.forEach(element => {
         if(isVisible(element)) {
             element.classList.add('active');
         } else {
