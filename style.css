@@ -62,18 +62,10 @@ footer {
     text-align: center;
     position: fixed;
 }
-h1 {
-    /*color: #343434;*/
-    /*background-color: white;*/
-    /*top: -25px;*/
-    /*left: 0;*/
-    /*right: 0;*/
-    /*box-shadow: 0px 15px 40px rgba(199,21,133,0.2);*/
-    /*padding: 15px;*/
-    font-family: 'Fredoka One', cursive;
-    font-weight: lighter;
-    /*text-align: center;*/
-    /*position: fixed;*/
+.NUPS {
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    border: 2px solid violet;
 }
 .opening {
     font-family: 'Montserrat', sans-serif;
@@ -131,7 +123,7 @@ h1 {
 }
 a.NUSU {
     opacity: 1;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Lato', sans-serif;
     border: lavender solid;
     text-decoration: none;
     color: lavender;
@@ -155,18 +147,14 @@ a.NUSU:hover {
     border: white solid;
     transition-duration: 0.3s;
 }
-/*.b2 {*/
-/*    font-family: 'Montserrat', sans-serif;*/
-/*}*/
 .fa-instagram {
+    font-family: arial, sans-serif;
     border: white solid;
     background: #f09433;
     background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
     background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
     background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
-    /*background: #d6249f;*/
-    /*background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);*/
     padding: 10px;
     color: white;
     text-align: center;
@@ -180,8 +168,7 @@ a.NUSU:hover {
     color: white;
 }
 h2 {
-    font-family: 'Fredoka One', cursive;
-    font-weight: lighter;
+    font-family: 'Lato', sans-serif;
 }
 .h2 {
     color: mediumvioletred;
