@@ -48,11 +48,12 @@ footer {
 }
 .PakSocLogo {
     position: relative;
-    border: #d6249f 2px solid;
+    /*border: #d6249f 2px solid;*/
 }
 .Header {
     max-width: 1200px;
-    border: #d6249f 2px solid;
+    /*border: #d6249f 2px solid;*/
+    /*border-bottom: #343434 2px solid;*/
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 9fr;
@@ -68,7 +69,7 @@ footer {
 .NUPS {
     margin: auto;
     font-family: 'Lato', sans-serif;
-    border: 2px solid violet;
+    /*border: 2px solid violet;*/
 }
 .opening {
     font-family: 'Montserrat', sans-serif;
