@@ -49,10 +49,11 @@ footer {
     border: #d6249f 2px solid;
 }
 .Header {
+    max-width: 1200px;
     border: #d6249f 2px solid;
     margin: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 9fr;
     color: #343434;
     background-color: white;
     top: 0px;
@@ -253,7 +254,8 @@ h2 {
 }
 .notification {
     position: fixed;
-    bottom: 57%;
+    z-index: 2;
+    bottom: 59%;
     right: 10px;
     width: 100px;
     height: 100px;
