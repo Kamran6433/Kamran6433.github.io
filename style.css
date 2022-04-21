@@ -23,16 +23,16 @@ form {
     width: 320px;
     text-align: center;
     border-radius: 5px;
-    box-shadow: 0px 0px 5px black;
+    box-shadow: 0 0 5px black;
     padding: 10px;
 }
 footer {
     margin: auto;
-    bottom: 0%;
-    left: 0%;
-    right: 0%;
+    bottom: 0;
+    left: 0;
+    right: 0;
     position: relative;
-    box-shadow: 0px 0px 5px black;
+    box-shadow: 0 0 5px black;
     background-color: mediumvioletred;
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
@@ -56,10 +56,10 @@ footer {
     grid-template-columns: 1fr 9fr;
     color: #343434;
     background-color: white;
-    top: 0px;
+    top: 0;
     left: 0;
     right: 0;
-    box-shadow: 0px 15px 40px rgba(199,21,133,0.2);
+    box-shadow: 0 15px 40px rgba(199,21,133,0.2);
     text-align: center;
     position: fixed;
 }
@@ -101,9 +101,11 @@ footer {
     position: relative;
     margin: auto;
 }
-.aos p {
+.aos {
+    opacity: 0;
+}
+.aos p{
     position: relative;
-    opacity: 100%;
     background-color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
@@ -114,11 +116,10 @@ footer {
     border-radius: 0;
     box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, .2);
     transition: 0.5s ease-out;
-    margin: auto;
-    margin-top: 10vh;
+    margin: 10vh auto auto;
 }
 .aos.active {
-    opacity: 100%;
+    opacity: 1;
     transform: translateY(-65px);
     transition: 0.5s ease-in;
 }
@@ -178,7 +179,7 @@ h2 {
 .outerCard {
     position: relative;
     z-index: 0;
-    border-radius: 0px;
+    border-radius: 0;
     padding: 10px;
     margin-bottom: 10px;
 }
@@ -254,14 +255,14 @@ h2 {
 }
 .notification {
     position: fixed;
-    z-index: 2;
+    z-index: 10;
     bottom: 59%;
     right: 10px;
     width: 100px;
     height: 100px;
     border: #343434 2px solid;
     background: #00bfb6;
-    padding: 0px 3px 0px 3px;
+    padding: 0 3px 0 3px;
     text-align: center;
     font-weight: 800;
     font-size: smaller;

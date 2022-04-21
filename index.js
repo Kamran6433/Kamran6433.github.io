@@ -2,6 +2,12 @@
 // let username = window.prompt("what is your name?");
 // console.log("username");
 
+window.onload = () => {
+    document.getElementById("close-button").onclick = function() {
+        this.parentNode.remove();
+        return false;
+    };
+};
 const background = ["Images/NCLCampus2.jpg",
     "Images/NCLCampus.jpg",
     "Images/Catalyst.jpg"];
@@ -21,7 +27,6 @@ function changeImg() {
 window.onload = changeImg;
 
 const aosElements = Array.from(document.querySelectorAll('.aos'));
-console.log(aosElements);
 
 window.addEventListener('scroll', throttle(scanElements, 50))
 
