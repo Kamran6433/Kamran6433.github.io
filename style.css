@@ -146,10 +146,15 @@ footer {
 .Linktree {
     background: linear-gradient(45deg, #aaf0d1 0%, #1be998 100%);
     padding: 10px;
+    font-family: arial, sans-serif;
+    box-shadow: 0 0 4px black;
+    color: mediumpurple;
+    border: white solid;
     text-decoration: none;
 }
 a.NUSU {
     opacity: 1;
+    width: 175px;
     font-family: arial, sans-serif;
     border: lavender solid;
     text-decoration: none;
@@ -170,9 +175,11 @@ a.NUSU:hover {
     background-color: #e6caff;
 }
 .fa-instagram:hover {
-    box-shadow: 0 0 7px gold;
-    border: white solid;
+    box-shadow: 0 0 7px black;
+    border: #cc2366 solid;
+    color: #dc2743;
     transition-duration: 0.3s;
+    background: white;
 }
 .fa-instagram {
     font-family: arial, sans-serif;
@@ -187,8 +194,9 @@ a.NUSU:hover {
     text-align: center;
     text-decoration: none;
     border-radius: 3px;
-    transition-duration: 0.5s;
-    width: 135px;
+    box-shadow: 0 0 4px black;
+    transition: 0.3s ease-in;
+    width: 175px;
     position: relative;
 }
 .fa-envelope {
