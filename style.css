@@ -69,12 +69,15 @@ footer {
     font-family: 'Lato', sans-serif;
 }
 .opening {
+    position: relative;
     font-family: 'Montserrat', sans-serif;
     font-size: x-large;
-    color: white;
+    color: purple;
     text-shadow: 10px 10px 40px rgba(199,21,133,0.2);
 }
 .button{
+    display: flex;
+    flex-direction: row;
     opacity: 1;
     position: relative;
     bottom: 82%;
