@@ -6,41 +6,33 @@ window.onload = () => {
     document.getElementById("close-button").onclick = function() {
         this.parentNode.remove();
         return false;
-    };
-};
-const background = ["Images/NCLCampus2.jpg",
-    "Images/NCLCampus.jpg",
-    "Images/Catalyst.jpg"];
+    }
+}
+
+const background = document.querySelectorAll(".image");
 let i = 0;
 
 function changeImg() {
-    document.slide.src = background[i];
+    background[i].classList.remove("showing");
+    i++;
 
-    if (i < background.length - 1) {
-        i++;
-    }
-    else {
+    if (i > background.length - 1) {
         i = 0;
     }
+
+    background[i].classList.add("showing");
     setTimeout("changeImg()", 5000);
 }
+// setTimeout("changeImg()", 5000);
 window.onload = changeImg;
 
 const aosElements = Array.from(document.querySelectorAll('.aos'));
-const buttonElements = Array.from(document.querySelectorAll('.button'))
 
 window.addEventListener('scroll', throttle(scanElements, 50))
 
 function scanElements(e) {
     console.count(e);
     aosElements.forEach(element => {
-        if(isVisible(element)) {
-            element.classList.add('active');
-        } else {
-            element.classList.remove('active');
-        }
-    })
-    buttonElements.forEach(element => {
         if(isVisible(element)) {
             element.classList.add('active');
         } else {
