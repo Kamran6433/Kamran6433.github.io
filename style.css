@@ -70,8 +70,7 @@ footer {
 }
 .opening {
     font-family: 'Montserrat', sans-serif;
-    /*font-size: larger;*/
-    font-size: xx-large;
+    font-size: x-large;
     color: white;
     text-shadow: 10px 10px 40px rgba(199,21,133,0.2);
 }
