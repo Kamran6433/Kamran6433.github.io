@@ -72,16 +72,15 @@ footer {
     position: relative;
     font-family: 'Montserrat', sans-serif;
     font-size: x-large;
-    color: purple;
+    color: white;
     text-shadow: 10px 10px 40px rgba(199,21,133,0.2);
 }
 .button{
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     opacity: 1;
     position: relative;
-    bottom: 82%;
-    margin-bottom: 60px;
+    bottom: 83%;
 }
 .image-box {
     display: flex;
@@ -156,10 +155,10 @@ a.NUSU {
     text-decoration: none;
     color: lavender;
     background-color: #343434;
-    padding: 12px;
+    padding: 8px;
     text-align: center;
     margin: auto;
-    border-radius: 10px;
+    border-radius: 3px;
     box-shadow: 0 0 4px black;
     transition: 0.3s ease-in;
 }
@@ -183,11 +182,11 @@ a.NUSU:hover {
     background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
     background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
-    padding: 10px;
+    padding: 8px;
     color: white;
     text-align: center;
     text-decoration: none;
-    border-radius: 10px;
+    border-radius: 3px;
     transition-duration: 0.5s;
     width: 135px;
     position: relative;
