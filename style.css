@@ -42,16 +42,14 @@ footer {
     text-align: center;
 }
 .website {
-    max-width: 1200px;
+    max-width: 1600px;
     margin: auto;
     text-align: center;
 }
 .PakSocLogo {
     position: relative;
-    /*border: #d6249f 2px solid;*/
 }
 .Header {
-    max-width: 1200px;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -317,16 +315,67 @@ h2 {
 .notification p {
 }
 .close-button {
-    background: grey;
-    border: 0;
+    cursor: pointer;
+    outline: none;
+    background: none;
+    border: none;
     padding: 0 3px 0 3px;
+    font-size: 1.5rem;
     border-radius: 50%;
     position: absolute;
     top: 3px;
     right: 3px;
     margin: 0;
+    font-weight: bold;
 }
 .close-button:hover {
-    background: #343434;
-    cursor: pointer;
+jdsbfksabdfbsdfabkskdfbh
+}
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 500ms ease-in-out;
+    border: 2px dashed pink;
+    border-radius: 10px;
+    background-color: lightpink;
+    z-index: 10;
+    width: 500px;
+    max-width: 80%;
+}
+.modal.act {
+    transform: translate(-50%, -50%) scale(1);
+}
+.modalHeader {
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+.modalHeader .modalTitle{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.modalHeader .close-button {
+    align-items: center;
+}
+.modalBody {
+    padding: 20px 10px;
+}
+#overlay {
+    position: fixed;
+    opacity: 0;
+    transition: 500ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    pointer-events: none;
+}
+#overlay.act {
+    opacity: 1;
+    pointer-events: all;
 }
