@@ -71,19 +71,25 @@ footer {
 }
 .Popup {
     margin: auto 0 auto auto;
-    border: 2px gold dashed;
-    /*margin: auto 10px auto 10px;*/
     height: 60px;
     border-radius: 10px;
-    background-color: indianred;
+    background-color: #1DA1F2;
 }
-.issuesButton {
+.fa-regular.fa-message {
+    z-index: 5;
+    padding: 10px;
+    color: white;
+    background-color: #d6249f;
+    border: white 2px solid;
+}
+.talkButton {
+    color: white;
     height: 60px;
     margin: auto;
     font-family: 'Lato', sans-serif;
+    font-size: large;
     border: none;
     background: none;
-    color: yellow;
 }
 .button.opening {
     position: relative;
