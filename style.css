@@ -42,12 +42,14 @@ footer {
     text-align: center;
 }
 .website {
-    max-width: 1600px;
+    max-width: 1500px;
     margin: auto;
     text-align: center;
 }
 .PakSocLogo {
+    margin: auto auto auto 0;
     position: relative;
+    border: 2px gold dashed;
 }
 .Header {
     margin: auto;
@@ -65,8 +67,15 @@ footer {
 .NUPS {
     margin: auto;
     font-family: 'Lato', sans-serif;
+    border: 2px gold dashed;
 }
-.opening {
+.Popup {
+    margin: auto 0 auto auto;
+    border: 2px gold dashed;
+    /*margin: auto 10px auto 10px;*/
+    height: 60px;
+}
+.button.opening {
     position: relative;
     font-family: 'Montserrat', sans-serif;
     font-size: x-large;
@@ -212,7 +221,6 @@ h2 {
     z-index: 0;
     border-radius: 0;
     padding: 10px;
-    /*margin-bottom: 0px;*/
 }
 .committee{
     position: relative;
@@ -268,10 +276,6 @@ h2 {
     right: 11%;
     top: 10%;
 }
-#sideTab {
-    text-decoration: none;
-    color: white;
-}
 .sideTab {
     color: white;
     text-decoration: none;
@@ -289,8 +293,8 @@ h2 {
     z-index: 10;
     bottom: 59%;
     right: 10px;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border: #343434 2px solid;
     border-radius: 10px 10px 0 10px;
     background: #00bfb6;
@@ -303,8 +307,6 @@ h2 {
 }
 .notification:before {
     content: "";
-    /*width: 0px;*/
-    /*height: 0px;*/
     position: absolute;
     border-left: 10px solid transparent;
     border-right: 10px solid #00bfb6;
