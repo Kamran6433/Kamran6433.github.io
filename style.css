@@ -94,8 +94,15 @@ footer {
     border: none;
     background: none;
 }
+.AllButtons {
+    max-width: 600px;
+    position: absolute;
+    z-index: 10;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50% );
+}
 .button.opening {
-    position: relative;
     font-family: 'Montserrat', sans-serif;
     font-size: x-large;
     color: white;
@@ -104,9 +111,7 @@ footer {
 .button{
     display: inline-flex;
     flex-direction: row;
-    opacity: 1;
-    position: relative;
-    bottom: 83%;
+    /*bottom: 83%;*/
 }
 .image-box {
     display: flex;
