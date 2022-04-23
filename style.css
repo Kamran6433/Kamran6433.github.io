@@ -51,6 +51,7 @@ footer {
     border: 2px gold dashed;
 }
 .Header {
+    opacity: 0.5;
     max-width: 1250px;
     margin: auto;
     display: flex;
@@ -75,7 +76,8 @@ footer {
     border-radius: 10px;
     background-color: #1DA1F2;
 }
-.fa-regular.fa-message {
+.fa-message {
+    position: relative;
     z-index: 5;
     padding: 10px;
     color: white;
@@ -83,9 +85,10 @@ footer {
     border: white 2px solid;
 }
 .talkButton {
-    color: white;
-    height: 60px;
-    margin: auto;
+    position: relative;
+    color: black;
+    /*height: 60px;*/
+    /*margin: auto;*/
     font-family: 'Lato', sans-serif;
     font-size: large;
     border: none;
@@ -350,7 +353,7 @@ h2 {
     /*top: 23px;*/
     /*right: 3px;*/
     height: 69px;
-    width: 50px;
+    width: 7.5%;
     left: 0;
     /*left-width: 50px;*/
     /*border: #d6249f 2px solid;*/
