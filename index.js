@@ -2,12 +2,14 @@
 // let username = window.prompt("what is your name?");
 // console.log("username");
 
-window.onload = () => {
-    document.getElementById("close-button").onclick = function() {
-        this.parentNode.remove();
-        return false;
-    }
-}
+// let closeButtons = document.getElementById("close-button");
+// let v;
+//
+// for (v = 0; v < closeButtons.length; v++) {
+//     closeButtons[v].addEventListener('click', function () {
+//         this.parentElement.style.display = 'none';
+//     });
+// }
 
 const background = document.querySelectorAll(".image");
 let i = 0;
