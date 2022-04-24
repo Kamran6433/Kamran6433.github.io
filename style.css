@@ -61,7 +61,6 @@ footer {
     left: 0;
     right: 0;
     border-bottom: #e6e6e6 1px solid;
-    border-top: #d6249f 1px solid;
 }
 .Header {
     z-index: 5;
@@ -76,7 +75,6 @@ footer {
     left: 0;
     right: 0;
     border-bottom: #e6e6e6 1px solid;
-    border-top: #d6249f 1px solid;
     box-shadow: 0 15px 40px rgba(199,21,133,0.2);
     text-align: center;
     position: fixed;
