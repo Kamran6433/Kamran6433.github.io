@@ -42,36 +42,56 @@ footer {
     text-align: center;
 }
 .website {
-    max-width: 1250px;
+    max-width: 1200px;
     margin: auto;
     text-align: center;
 }
 .PakSocLogo {
+    /*left: 0;*/
+    z-index: 5;
     margin: auto auto auto 0;
     position: relative;
-    border: 2px gold dashed;
 }
-.Header {
-    /*opacity: 0.5;*/
-    max-width: 1250px;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    color: #343434;
+.Header::before {
+    content: "";
+    position: fixed;
+    height: 80px;
     background-color: white;
     top: 0;
     left: 0;
     right: 0;
+    border-bottom: #e6e6e6 1px solid;
+}
+.Header {
+    z-index: 5;
+    height: 80px;
+    /*opacity: 0.5;*/
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: #e6e6e6 1px solid;
+    border-top: #d6249f 0 solid;
     box-shadow: 0 15px 40px rgba(199,21,133,0.2);
     text-align: center;
     position: fixed;
 }
 .NUPS {
-    margin: auto;
+    z-index: 5;
+    position: relative;
+    color: #343434;
+    font-size: xxx-large;
+    margin: auto 0 auto 0;
     font-family: 'Lato', sans-serif;
-    border: 2px gold dashed;
 }
 .Popup {
+    z-index: 5;
+    width: 110px;
+    display: inline;
     margin: auto 0 auto auto;
     height: 50px;
     border: #343434 2px solid;
