@@ -55,7 +55,7 @@ footer {
 .Header::before {
     content: "";
     position: fixed;
-    height: 80px;
+    height: 100px;
     background-color: white;
     top: 0;
     left: 0;
@@ -65,7 +65,7 @@ footer {
 }
 .Header {
     z-index: 5;
-    height: 80px;
+    height: 100px;
     /*opacity: 0.5;*/
     max-width: 1200px;
     margin: auto;
@@ -91,7 +91,7 @@ footer {
 }
 .Popup {
     z-index: 5;
-    width: 110px;
+    width: 133px;
     display: inline;
     margin: auto 0 auto auto;
     height: 50px;
