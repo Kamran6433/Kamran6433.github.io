@@ -28,6 +28,7 @@ function changeImg() {
 // setTimeout("changeImg()", 5000);
 window.onload = changeImg;
 
+
 const aosElements = Array.from(document.querySelectorAll('.aos'));
 
 window.addEventListener('scroll', throttle(scanElements, 50))
@@ -62,7 +63,7 @@ function throttle(fn, delay) {
     }
 }
 
-const committeeCarousel = [document.getElementsByClassName("committee")];
+// const committeeCarousel = [document.getElementsByClassName("committee")];
 
 var swiper = new Swiper(".mySwiper", {
     spaceBetween: 70,
@@ -117,3 +118,7 @@ function closeModal(modal) {
     modal.classList.remove('act');
     overlay.classList.remove('act');
 }
+
+setTimeout(function () {
+    document.getElementById('notification').classList.remove('hide');
+}, 5000)
