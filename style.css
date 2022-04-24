@@ -75,7 +75,6 @@ footer {
     left: 0;
     right: 0;
     border-bottom: #e6e6e6 1px solid;
-    box-shadow: #d2ffde 0 10px 30px;
     text-align: center;
     position: fixed;
 }
@@ -281,8 +280,11 @@ h2 {
     font-family: 'Lato', sans-serif;
 }
 .h2 {
-    color: mediumseagreen;
+    color: #d6249f;
     text-align: center;
+}
+.SignUp {
+    color: mediumseagreen;
 }
 .outerCard {
     background-color: #f0f0f0;
@@ -299,7 +301,7 @@ h2 {
     /*box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, .2);*/
     max-width: 350px;
     height: 350px;
-    border: #343434 solid 3px;
+    border: #d6249f solid 3px;
     border-radius: 20px 20px 0 0;
 }
 .swiper::before {
@@ -307,7 +309,7 @@ h2 {
     position: absolute;
     height: 40%;
     width: 100%;
-    background: #bee6c8;
+    background: lavender;
 }
 .swiper-slide {
     /*margin: auto;*/
@@ -335,8 +337,8 @@ h2 {
     top: 33%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
-    border: #1be998 3px solid;
-    box-shadow: #aaf0d1 0 0 10px;
+    border: #d6249f 3px solid;
+    box-shadow: #d6249f 0 0 10px;
 }
 .cardContent {
     max-width: 300px;
@@ -346,7 +348,7 @@ h2 {
     left: 50%;
     top: 80%;
     transform: translate(-50%, -50%);
-    font-size: larger;
+    font-size: large;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     border-radius: 10px;
