@@ -64,7 +64,7 @@ footer {
 }
 .Header {
     z-index: 5;
-    height: 100px;
+    height: 101px;
     /*opacity: 0.5;*/
     max-width: 1200px;
     margin: auto;
