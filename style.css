@@ -35,7 +35,7 @@ footer {
     right: 0;
     position: relative;
     box-shadow: 0 0 5px black;
-    background-color: mediumvioletred;
+    background-color: mediumseagreen;
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
     padding: 10px;
@@ -75,7 +75,7 @@ footer {
     left: 0;
     right: 0;
     border-bottom: #e6e6e6 1px solid;
-    box-shadow: 0 15px 40px rgba(199,21,133,0.2);
+    box-shadow: #d2ffde 0 10px 30px;
     text-align: center;
     position: fixed;
 }
@@ -189,7 +189,7 @@ footer {
     padding: 20px;
     max-width: 700px;
     text-align: left;
-    border: mediumvioletred solid;
+    border: mediumseagreen solid;
     border-radius: 0;
     box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, .2);
     transition: 0.7s ease-out;
@@ -281,7 +281,7 @@ h2 {
     font-family: 'Lato', sans-serif;
 }
 .h2 {
-    color: mediumvioletred;
+    color: mediumseagreen;
     text-align: center;
 }
 .outerCard {
@@ -299,7 +299,7 @@ h2 {
     /*box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, .2);*/
     max-width: 350px;
     height: 350px;
-    border: #d6249f solid 3px;
+    border: #343434 solid 3px;
     border-radius: 20px 20px 0 0;
 }
 .swiper::before {
@@ -307,7 +307,7 @@ h2 {
     position: absolute;
     height: 40%;
     width: 100%;
-    background: rgba(199,21,133,0.2);
+    background: #bee6c8;
 }
 .swiper-slide {
     /*margin: auto;*/
@@ -335,8 +335,8 @@ h2 {
     top: 33%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
-    border: 3px solid #d6249f;
-    box-shadow: 0 0 10px #d6249f;
+    border: #1be998 3px solid;
+    box-shadow: #aaf0d1 0 0 10px;
 }
 .cardContent {
     max-width: 300px;
