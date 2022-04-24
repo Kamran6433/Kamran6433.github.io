@@ -73,22 +73,23 @@ footer {
 .Popup {
     margin: auto 0 auto auto;
     height: 60px;
-    border-radius: 10px;
-    background-color: #1DA1F2;
+    border: #343434 2px solid;
+    /*border-radius: 10px;*/
+    /*background-color: #1DA1F2;*/
 }
 .fa-message {
-    position: relative;
-    z-index: 5;
-    padding: 10px;
-    color: white;
-    background-color: #d6249f;
-    border: white 2px solid;
+    /*position: relative;*/
+    /*z-index: 5;*/
+    /*padding: 10px;*/
+    /*color: white;*/
+    /*background-color: #d6249f;*/
+    /*border: white 2px solid;*/
 }
 .talkButton {
-    position: relative;
-    color: black;
-    font-family: 'Lato', sans-serif;
-    font-size: large;
+    /*position: relative;*/
+    /*color: black;*/
+    /*font-family: 'Lato', sans-serif;*/
+    /*font-size: large;*/
     border: none;
     background: none;
 }
@@ -96,7 +97,6 @@ footer {
     width: 80vw;
     height: 75%;
     position: absolute;
-    border: yellow 2px dashed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -114,7 +114,6 @@ footer {
 .button{
     top: 50%;
     position: relative;
-    border: #00bfb6 2px solid;
     display: inline-flex;
     flex-direction: row;
 }
@@ -185,6 +184,7 @@ footer {
     background: linear-gradient(45deg, #aaf0d1 0%, #1be998 100%);
     padding: 10px;
     font-family: arial, sans-serif;
+    font-weight: bold;
     box-shadow: 0 0 4px black;
     color: mediumpurple;
     border: white solid;
