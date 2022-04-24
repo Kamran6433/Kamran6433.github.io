@@ -10,6 +10,15 @@
 //         this.parentElement.style.display = 'none';
 //     });
 // }
+//
+// if (window.innerWidth < 800) {
+//     makeImageSmaller();
+// }
+//
+// function makeImageSmaller() {
+//     let images = document.getElementById("image-box");
+//     images.setAttribute("style", "height:600px");
+// }
 
 const background = document.querySelectorAll(".image");
 let i = 0;
