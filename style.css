@@ -102,6 +102,7 @@ footer {
 .talkButton {
     position: relative;
     background: #00acee;
+    bottom: -4px;
     height: 40px;
     width: 50px;
     border: white solid;
@@ -116,7 +117,7 @@ footer {
     border-top: 10px solid #00acee;
     border-bottom: 10px solid transparent;
     right: 10px;
-    bottom: -15px;
+    bottom: -14px;
 }
 .AllButtons {
     width: 80vw;
