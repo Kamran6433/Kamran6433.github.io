@@ -24,7 +24,8 @@ form {
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
     margin: auto;
-    width: 300px;
+    /*width: 300px;*/
+    max-width: 400px;
     text-align: center;
     border: white solid 6px;
     border-radius: 5px;
