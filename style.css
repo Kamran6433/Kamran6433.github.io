@@ -350,17 +350,18 @@ h2 {
     box-shadow: #d6249f 0 0 10px;
 }
 .cardContent {
-    max-width: 300px;
+    width: 300px;
     padding: 10px;
-    background-color: rgba(0, 0, 255, .2);
+    background-color: #d6249f;
     position: absolute;
     left: 50%;
     top: 80%;
     transform: translate(-50%, -50%);
     font-size: large;
+    color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    border-radius: 10px;
+    border-radius: 3px;
 }
 .sideTab {
     color: white;
