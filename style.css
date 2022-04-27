@@ -390,8 +390,8 @@ h2 {
     z-index: 10;
     bottom: 60%;
     right: 10px;
-    width: 140px;
-    height: 110px;
+    width: 10vw;
+    height: 14vh;
     border: #343434 2px solid;
     border-radius: 10px 10px 0 10px;
     background: #00bfb6;
