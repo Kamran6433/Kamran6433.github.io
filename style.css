@@ -365,10 +365,21 @@ h2 {
 .events {
     background-color: lavender;
 }
-.OurEventsBox {
+.OurEventsFlexBox {
     border: 2px dashed red;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+}
+.OurEventsPictures {
+    border: #d6249f 2px solid;
+}
+.flexHeader {
+    border: #00acee 2px solid;
+    max-width: 600px;
+}
+.TextBox {
+    border: 2px dashed gold;
 }
 .AboutTheSocietyBackground {
     background-color: #e4ffea;
