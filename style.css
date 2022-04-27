@@ -386,21 +386,24 @@ h2 {
     box-shadow: 0 0 7px black;
 }
 .notification {
+    display: flex;
     position: fixed;
     z-index: 10;
     bottom: 60%;
     right: 10px;
-    width: 10vw;
-    height: 14vh;
+    width: 150px;
+    height: 110px;
     border: #343434 2px solid;
     border-radius: 10px 10px 0 10px;
     background: #00bfb6;
-    padding: 0 0 0 0;
+    /*padding: 0 0 0;*/
     text-align: center;
     font-weight: 800;
     font-size: smaller;
     color: #fff;
     font-family: arial, sans-serif;
+    /*word-wrap: break-word;*/
+    /*overflow-x: scroll;*/
 }
 .notification:before {
     content: "";
@@ -413,6 +416,9 @@ h2 {
     bottom: -19px;
 }
 .notification p {
+    padding: 1px;
+    position: relative;
+    display: flex;
     margin: 30px 6px 40px 6px;
     /*border: #d6249f 2px solid;*/
 }

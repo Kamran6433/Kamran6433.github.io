@@ -130,4 +130,4 @@ function closeModal(modal) {
 
 setTimeout(function () {
     document.getElementById('notification').classList.remove('hide');
-}, 5000)
+}, 0)
