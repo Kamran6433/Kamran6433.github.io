@@ -373,13 +373,19 @@ h2 {
     justify-content: center;
 }
 .ChaiAndChillBox {
-    max-width: 600px;
+    max-width: 1000px;
     border: black 3px solid;
+    font-family: 'Lato', sans-serif;
 
 }
+.bold {
+    color: #d6249f;
+    font-weight: bold;
+}
 .QawwaliNightBox {
-    max-width: 600px;
+    max-width: 1000px;
     border: black 3px solid;
+    font-family: 'Lato', sans-serif;
 }
 .OurEventsPicture {
     border: #d6249f 2px solid;
@@ -393,6 +399,7 @@ h2 {
 }
 .TextBox {
     border: 2px dashed gold;
+    text-align: left;
 }
 .AboutTheSocietyBackground {
     background-color: #e4ffea;
@@ -420,14 +427,11 @@ h2 {
     border: #343434 2px solid;
     border-radius: 10px 10px 0 10px;
     background: #00bfb6;
-    /*padding: 0 0 0;*/
     text-align: center;
     font-weight: 800;
     font-size: smaller;
     color: #fff;
     font-family: arial, sans-serif;
-    /*word-wrap: break-word;*/
-    /*overflow-x: scroll;*/
 }
 .notification:before {
     content: "";
