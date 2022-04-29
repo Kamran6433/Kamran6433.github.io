@@ -130,7 +130,7 @@ footer {
     font-family: 'Montserrat', sans-serif;
     font-size: larger;
     color: white;
-    text-shadow: 0 0 7px rgba(199,21,133,0.2);
+    text-shadow: 0 0 5px #000000;
 }
 .button{
     top: 50%;
