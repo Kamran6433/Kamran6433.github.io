@@ -363,7 +363,7 @@ h2 {
     background-color: lavender;
 }
 .OurEventsFlexBox {
-    border: 2px dashed red;
+    /*border: 2px dashed red;*/
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -371,7 +371,7 @@ h2 {
 }
 .ChaiAndChillBox {
     max-width: 1000px;
-    border: black 3px solid;
+    /*border: black 3px solid;*/
     font-family: 'Lato', sans-serif;
 
 }
@@ -381,25 +381,27 @@ h2 {
 }
 .QawwaliNightBox {
     max-width: 1000px;
-    border: black 3px solid;
+    /*border: black 3px solid;*/
     font-family: 'Lato', sans-serif;
 }
 .OurEventsPicture {
-    border: #d6249f 2px solid;
+    /*border: #d6249f 2px solid;*/
 }
 .OurEventsVideo {
-    border: lime solid 2px;
+    /*border: lime solid 2px;*/
 }
 .flexHeader {
+    border-radius: 5px;
     background-color: white;
-    border: #00acee 2px solid;
+    /*border: #00acee 2px solid;*/
     max-width: 500px;
 }
 .TextBox {
-    border-radius: 5px;
+    position: relative;
+    top: 60px;
+    border-radius: 10px;
     background-color: #fffBf1;
     margin: auto 1% 1% 1%;
-    /*border: 2px dashed gold;*/
     text-align: left;
     box-shadow: 2px 2px 1px 1px rgba(0, 0, 255, .2);
 }
