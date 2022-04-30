@@ -36,10 +36,7 @@ footer {
     right: 0;
     position: relative;
     /*box-shadow: 0 0 5px black;*/
-    background-color: mediumseagreen;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bolder;
-    padding: 10px;
+    background-image: linear-gradient(to top, mediumseagreen 0%, #3cba92 100%);    padding: 10px;
     text-align: center;
 }
 .website {
