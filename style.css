@@ -100,6 +100,7 @@ footer {
     border: white solid;
     border-radius: 10px;
     box-shadow: 2px 2px 1px 1px rgba(0, 0, 255, .2);
+    cursor: pointer;
 }
 .talkButton::before {
     content: "";
@@ -209,7 +210,7 @@ footer {
     border: white solid;
 }
 .Linktree:hover {
-
+    opacity: 0.9;
 }
 .b3 {
     top: 80%;
@@ -363,15 +364,13 @@ h2 {
     font-family: 'Lato', sans-serif;
 }
 .OurEventsPicture {
-    /*border: #d6249f 2px solid;*/
+    border: #d6249f 2px dashed;
 }
 .OurEventsVideo {
-    /*border: lime solid 2px;*/
+    border: lime dashed 2px;
 }
 .flexHeader {
     border-radius: 5px;
-    /*background-color: white;*/
-    /*border: #00acee 2px solid;*/
     max-width: 500px;
 }
 .TextBox {
@@ -497,6 +496,7 @@ h2 {
 .modalBody {
     font-family: 'Lato', sans-serif;
     padding: 10px;
+    text-align: left;
 }
 #overlay {
     position: fixed;
