@@ -305,16 +305,16 @@ h2 {
     max-width: 350px;
     height: 350px;
     /*border: #d6249f solid 3px;*/
-    border: #ffffff solid 6px;
+    border: lavender solid 4px;
     border-radius: 20px 20px 0 0;
     box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, .2);
 }
 .swiper::before {
     content: "";
     position: absolute;
-    height: 40%;
+    height: 62.5%;
     width: 100%;
-    background: lavender;
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
 }
 .swiper-slide img {
     position: absolute;
@@ -328,15 +328,16 @@ h2 {
 .cardContent {
     width: 270px;
     padding: 10px;
-    background-color: #d6249f;
+    background-color: white;
     position: absolute;
     left: 50%;
     top: 80%;
     transform: translate(-50%, -50%);
     font-size: large;
-    color: white;
+    color: #d6249f;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    border: #d6249f 2px solid;
     border-radius: 3px;
 }
 .events {
