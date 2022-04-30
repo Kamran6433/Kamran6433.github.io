@@ -290,11 +290,11 @@ h2 {
     color: mediumseagreen;
 }
 .outerCard {
-    background-color: #fffBf1;
+    /*background-color: #fffBf1;*/
+    background-image: linear-gradient(#fffBf1, lavender, white);
     position: relative;
     z-index: 0;
-    border-radius: 0;
-    padding: 10px;
+    padding: 0;
 }
 .swiper {
     background-color: white;
@@ -360,7 +360,7 @@ h2 {
     border-radius: 3px;
 }
 .events {
-    background-color: lavender;
+    /*background-color: lavender;*/
 }
 .OurEventsFlexBox {
     /*border: 2px dashed red;*/
@@ -407,7 +407,7 @@ h2 {
     box-shadow: 2px 2px 1px 1px rgba(0, 0, 255, .2);
 }
 .AboutTheSocietyBackground {
-    background-color: #e4ffea;
+    /*background-color: #e4ffea;*/
 }
 .sideTab {
     color: white;
