@@ -446,7 +446,7 @@ h2 {
     height: 69px;
     width: 7.5%;
     /*left: 0;*/
-    border-radius: 10px 0 0 0;
+    /*border-radius: 10px 0 0 0;*/
 }
 .close-button {
     cursor: pointer;
