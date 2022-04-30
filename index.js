@@ -130,4 +130,7 @@ function closeModal(modal) {
 
 setTimeout(function () {
     document.getElementById('notification').classList.remove('hide');
-}, 0)
+}, 5000)
+
+// console.log(window.innerHeight)
+// console.log(window.innerWidth)
