@@ -91,6 +91,14 @@ footer {
     margin: auto 0 auto auto;
     height: 50px;
 }
+.SendUsAMessage {
+    position: relative;
+    background-color: #00acee;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 4px;
+    color: white;
+}
 .talkButton {
     position: relative;
     background: #00acee;
