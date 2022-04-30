@@ -319,7 +319,7 @@ h2 {
 .swiper-slide img {
     position: absolute;
     left: 50%;
-    top: 33%;
+    top: 31%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
     border: #d6249f 3px solid;
