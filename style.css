@@ -392,15 +392,16 @@ h2 {
 }
 .flexHeader {
     border-radius: 5px;
-    background-color: white;
+    /*background-color: white;*/
     /*border: #00acee 2px solid;*/
     max-width: 500px;
 }
 .TextBox {
+    padding: 10px;
     position: relative;
     top: 60px;
     border-radius: 10px;
-    background-color: #fffBf1;
+    background-color: white;
     margin: auto 1% 1% 1%;
     text-align: left;
     box-shadow: 2px 2px 1px 1px rgba(0, 0, 255, .2);
