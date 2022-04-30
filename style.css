@@ -305,13 +305,14 @@ h2 {
     /*border: #d6249f solid 3px;*/
     border: lavender solid 4px;
     border-radius: 20px 20px 0 0;
-    box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, .2);
+    box-shadow: 0px 6px 2px 1px rgba(0, 0, 255, .2);
 }
 .swiper::before {
     content: "";
     position: absolute;
     height: 62.5%;
     width: 100%;
+    border-bottom: lavender 2px solid;
     background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 95%, #e3eeff 100%);
 }
 .swiper-slide img {
@@ -441,12 +442,9 @@ h2 {
     right: 3px;
 }
 .close-button.c2 {
-    /*top: 23px;*/
     right: 0;
     height: 69px;
     width: 7.5%;
-    /*left: 0;*/
-    /*border-radius: 10px 0 0 0;*/
 }
 .close-button {
     cursor: pointer;
