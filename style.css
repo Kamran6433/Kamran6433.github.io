@@ -394,19 +394,30 @@ video {
     text-align: left;
     box-shadow: 2px 2px 1px 1px rgba(0, 0, 255, .2);
 }
+.pictures {
+    position: relative;
+}
 .Collage {
-    margin: auto;
+    position: relative;
     border: #00acee 2px solid;
-    align-items: center;
     max-width: 1200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .containSlider {
     z-index: 3;
-    top: 50%;
-    left: 43%;
-    transform: translate(-50%, -50%);
+    border: #d6249f 2px dashed;
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    /*top: 50%;*/
+    /*left: 10vw;*/
+    /*right:;*/
+    /*transform: translate(-50%, -50%);*/
     position: relative;
-    width: 150px;
+    width: 200px;
     height: 150px;
     transform-style: preserve-3d;
     animation: rotate 30s linear infinite;
