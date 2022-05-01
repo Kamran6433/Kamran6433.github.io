@@ -1,25 +1,3 @@
-// accepting user input
-// let username = window.prompt("what is your name?");
-// console.log("username");
-
-// let closeButtons = document.getElementById("close-button");
-// let v;
-//
-// for (v = 0; v < closeButtons.length; v++) {
-//     closeButtons[v].addEventListener('click', function () {
-//         this.parentElement.style.display = 'none';
-//     });
-// }
-//
-// if (window.innerWidth < 800) {
-//     makeImageSmaller();
-// }
-//
-// function makeImageSmaller() {
-//     let images = document.getElementById("image-box");
-//     images.setAttribute("style", "height:600px");
-// }
-
 const background = document.querySelectorAll(".image");
 let i = 0;
 
@@ -71,8 +49,6 @@ function throttle(fn, delay) {
         return fn.apply(context, ...args);
     }
 }
-
-// const committeeCarousel = [document.getElementsByClassName("committee")];
 
 var swiper = new Swiper(".mySwiper", {
     spaceBetween: 70,
@@ -131,6 +107,3 @@ function closeModal(modal) {
 setTimeout(function () {
     document.getElementById('notification').classList.remove('hide');
 }, 5000)
-
-// console.log(window.innerHeight)
-// console.log(window.innerWidth)
