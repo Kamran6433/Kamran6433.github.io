@@ -404,12 +404,12 @@ h2 {
 }
 #Chai {
     border-radius: 20px;
-    max-width: 490px;
+    max-width: 80%;
     height: 450px;
     /*border: #343434 2px solid;*/
 }
 video {
-    max-width: 490px;
+    max-width: 80%;
     height: 450px;
 }
 .OurEventsVideo {
