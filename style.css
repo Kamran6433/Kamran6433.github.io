@@ -407,11 +407,13 @@ h2 {
     border-radius: 20px;
     max-width: 80%;
     height: 450px;
-    /*border: #343434 2px solid;*/
+    border: #fffBf1 3px solid;
+    box-shadow: 2px 2px 1px 1px rgba(0, 0, 255, .2);
 }
 video {
     max-width: 85%;
     height: 350px;
+
 }
 .OurEventsVideo {
     /*border: lime dashed 2px;*/
