@@ -409,13 +409,6 @@ video {
 .containSlider {
     z-index: 3;
     border: #d6249f 2px dashed;
-    /*display: flex;*/
-    /*align-items: center;*/
-    /*justify-content: center;*/
-    /*top: 50%;*/
-    /*left: 10vw;*/
-    /*right:;*/
-    /*transform: translate(-50%, -50%);*/
     position: relative;
     width: 200px;
     height: 150px;
