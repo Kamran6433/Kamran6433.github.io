@@ -395,6 +395,7 @@ video {
     box-shadow: 2px 2px 1px 1px rgba(0, 0, 255, .2);
 }
 .Collage {
+    margin: auto;
     border: #00acee 2px solid;
     align-items: center;
     max-width: 1200px;
