@@ -1,12 +1,4 @@
-/*use transform*/
-/*Flexboxes*/
-/*Grid*/
-/*Learn header and footer tags in HTML*/
-/*I need the Logo*/
-/*possibly some pictures of the committee unless i can find them myself the ones from instagram wont suffice*/
-
 html {
-    /*background-color: #343434;*/
 }
 .instagram-hub {
     width: 90vw;
@@ -31,13 +23,11 @@ form {
     padding: 10px;
 }
 .comingSoon {
-    /*text-align: center;*/
     font-family: 'Lato', sans-serif;
     top: 58%;
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
-    /*bottom: 2px;*/
     width: 430px;
     height: 250px;
     background-color: #343434;
@@ -51,7 +41,6 @@ footer {
     left: 0;
     right: 0;
     position: relative;
-    /*box-shadow: 0 0 5px black;*/
     background-image: linear-gradient(to top, mediumseagreen 0%, #3cba92 100%);    padding: 10px;
     text-align: center;
 }
@@ -61,8 +50,6 @@ footer {
     text-align: center;
 }
 .PakSocLogo {
-    /*left: 0;*/
-    /*z-index: 4;*/
     margin: auto auto auto 0;
     position: relative;
 }
@@ -79,7 +66,6 @@ footer {
 .Header {
     z-index: 4;
     height: 100px;
-    /*opacity: 0.5;*/
     max-width: 1200px;
     margin: auto;
     display: flex;
@@ -206,7 +192,6 @@ footer {
     position: relative;
     background-color: white;
     font-family: 'Lato', sans-serif;
-    /*font-weight: bold;*/
     font-size: 1rem;
     padding: 20px;
     max-width: 700px;
@@ -241,13 +226,6 @@ footer {
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
-    /*border-radius: 3px;*/
-    /*background: linear-gradient(45deg, #aaf0d1 0%, #1be998 100%);*/
-    /*padding: 10px;*/
-    /*font-family: arial, sans-serif;*/
-    /*box-shadow: 0 0 4px black;*/
-    /*color: mediumpurple;*/
-    /*border: white solid;*/
 }
 a.NUSU {
     width: 70%;
@@ -283,10 +261,6 @@ a.NUSU:hover {
     font-family: arial, sans-serif;
     border: white solid;
     background-color: #343434;
-    /*background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);*/
-    /*background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);*/
-    /*background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);*/
-    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );*/
     padding: 8px;
     color: white;
     text-align: center;
@@ -312,7 +286,6 @@ h2 {
     color: mediumseagreen;
 }
 .outerCard {
-    /*background-color: #fffBf1;*/
     background-image: linear-gradient(#fffBf1, lavender, white);
     position: relative;
     z-index: 0;
@@ -323,10 +296,8 @@ h2 {
     position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    /*box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, .2);*/
     max-width: 350px;
     height: 350px;
-    /*border: #d6249f solid 3px;*/
     border: lavender solid 4px;
     border-radius: 20px 20px 0 0;
     box-shadow: 0 6px 2px 1px rgba(0, 0, 255, .2);
@@ -364,18 +335,14 @@ h2 {
     border-radius: 3px;
 }
 .events {
-    /*background-color: lavender;*/
 }
 .OurEventsFlexBox {
-    /*margin: auto;*/
-    /*border: 2px dashed red;*/
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
 .ChaiAndChillBox {
-    /*margin: 20px auto auto auto;*/
     max-width: 1000px;
     display: flex;
     flex-direction: row;
@@ -394,14 +361,9 @@ h2 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    /*border: black 3px solid;*/
     font-family: 'Lato', sans-serif;
 }
 .OurEventsPicture {
-    /*border: #d6249f 2px dashed;*/
-    /*border-radius: 5px;*/
-    /*width: 600px;*/
-    /*height: 600px;*/
 }
 #Chai {
     border-radius: 20px;
@@ -416,8 +378,6 @@ video {
 
 }
 .OurEventsVideo {
-    /*border: lime dashed 2px;*/
-    /*border-radius: 5px;*/
 }
 .flexHeader {
     border-radius: 5px;
@@ -518,7 +478,6 @@ video {
     position: relative;
     display: flex;
     margin: 30px 6px 40px 6px;
-    /*border: #d6249f 2px solid;*/
 }
 .hide {
     display: none;
