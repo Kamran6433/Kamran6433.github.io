@@ -64,7 +64,7 @@ footer {
     border-bottom: #e6e6e6 1px solid;
 }
 .Header {
-    z-index: 4;
+    z-index: 5;
     height: 100px;
     max-width: 1200px;
     margin: auto;
@@ -395,6 +395,7 @@ video {
     box-shadow: 2px 2px 1px 1px rgba(0, 0, 255, .2);
 }
 .containSlider {
+    z-index: 1;
     top: 50%;
     left: 43%;
     transform: translate(-50%, -50%);
