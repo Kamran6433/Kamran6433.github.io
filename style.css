@@ -394,6 +394,11 @@ video {
     text-align: left;
     box-shadow: 2px 2px 1px 1px rgba(0, 0, 255, .2);
 }
+.Collage {
+    border: #00acee 2px solid;
+    align-items: center;
+    max-width: 1200px;
+}
 .containSlider {
     z-index: 3;
     top: 50%;
@@ -403,7 +408,7 @@ video {
     width: 150px;
     height: 150px;
     transform-style: preserve-3d;
-    animation: rotate 25s linear infinite;
+    animation: rotate 30s linear infinite;
 }
 @keyframes rotate {
     0% {
