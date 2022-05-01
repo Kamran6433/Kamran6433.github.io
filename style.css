@@ -436,7 +436,7 @@ video {
 }
 .containSlider {
     top: 50%;
-    left: 50%;
+    left: 43%;
     transform: translate(-50%, -50%);
     position: relative;
     width: 150px;
@@ -473,7 +473,6 @@ video {
     transition: 2s;
 }
 .AboutTheSocietyBackground {
-    /*background-color: #e4ffea;*/
 }
 .sideTab {
     color: white;
