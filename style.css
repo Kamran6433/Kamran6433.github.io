@@ -77,7 +77,6 @@ footer {
     position: fixed;
 }
 .NUPS {
-    /*z-index: 4;*/
     position: relative;
     color: #343434;
     font-size: xxx-large;
@@ -373,10 +372,15 @@ h2 {
     font-family: 'Lato', sans-serif;
 }
 .OurEventsPicture {
-    border: #d6249f 2px dashed;
+    /*border: #d6249f 2px dashed;*/
+    /*border-radius: 5px;*/
+}
+#Chai {
+    border-radius: 20px;
 }
 .OurEventsVideo {
-    border: lime dashed 2px;
+    /*border: lime dashed 2px;*/
+    /*border-radius: 5px;*/
 }
 .flexHeader {
     border-radius: 5px;
