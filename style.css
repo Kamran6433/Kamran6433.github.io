@@ -196,7 +196,7 @@ footer {
     text-align: left;
     border: #aaf0d1 solid;
     border-radius: 0;
-    box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, .2);
+    box-shadow: 0 3px 2px 1px rgba(0, 0, 255, .2);
     transition: 0.7s ease-out;
     margin: 100px auto auto;
 }
@@ -350,6 +350,7 @@ h2 {
     /*background-color: lavender;*/
 }
 .OurEventsFlexBox {
+    /*margin: auto;*/
     /*border: 2px dashed red;*/
     display: flex;
     flex-direction: row;
@@ -357,8 +358,12 @@ h2 {
     justify-content: center;
 }
 .ChaiAndChillBox {
+    /*margin: 20px auto auto auto;*/
     max-width: 1000px;
-    /*border: black 3px solid;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     font-family: 'Lato', sans-serif;
 
 }
@@ -368,15 +373,24 @@ h2 {
 }
 .QawwaliNightBox {
     max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     /*border: black 3px solid;*/
     font-family: 'Lato', sans-serif;
 }
 .OurEventsPicture {
     /*border: #d6249f 2px dashed;*/
     /*border-radius: 5px;*/
+    /*width: 600px;*/
+    /*height: 600px;*/
 }
 #Chai {
     border-radius: 20px;
+    width: 500px;
+    height: 500px;
+    /*border: #343434 2px solid;*/
 }
 .OurEventsVideo {
     /*border: lime dashed 2px;*/
