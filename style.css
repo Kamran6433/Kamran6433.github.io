@@ -27,8 +27,24 @@ form {
     text-align: center;
     border: white solid 6px;
     border-radius: 5px;
-    box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, .2);
+    box-shadow: 0 3px 2px 1px rgba(0, 0, 255, .2);
     padding: 10px;
+}
+.comingSoon {
+    /*text-align: center;*/
+    font-family: 'Lato', sans-serif;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    /*bottom: 2px;*/
+    width: 430px;
+    height: 250px;
+    background-color: #343434;
+    opacity: 0.5;
+    border-radius: 5px;
+    margin: auto;
+    color: white;
 }
 footer {
     bottom: 0;
@@ -312,7 +328,7 @@ h2 {
     /*border: #d6249f solid 3px;*/
     border: lavender solid 4px;
     border-radius: 20px 20px 0 0;
-    box-shadow: 0px 6px 2px 1px rgba(0, 0, 255, .2);
+    box-shadow: 0 6px 2px 1px rgba(0, 0, 255, .2);
 }
 .swiper::before {
     content: "";
