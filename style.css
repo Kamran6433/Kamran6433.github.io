@@ -92,9 +92,9 @@ footer {
 }
 .Popup {
     z-index: 1;
-    width: 133px;
+    width: 153px;
     display: inline;
-    margin: auto 0 auto auto;
+    margin: auto -20px auto auto;
     height: 50px;
 }
 .SendUsAMessage {
