@@ -107,8 +107,8 @@ footer {
     position: relative;
     background: #00acee;
     bottom: -4px;
-    height: 40px;
-    width: 50px;
+    height: 33px;
+    width: 40px;
     border: white solid;
     border-radius: 10px;
     box-shadow: 2px 2px 1px 1px rgba(0, 0, 255, .2);
@@ -121,8 +121,8 @@ footer {
     border-right: 10px solid transparent;
     border-top: 10px solid #00acee;
     border-bottom: 10px solid transparent;
-    right: 10px;
-    bottom: -14px;
+    right: 5px;
+    bottom: -12px;
 }
 .AllButtons {
     width: 80vw;
