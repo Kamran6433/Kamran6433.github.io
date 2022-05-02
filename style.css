@@ -462,7 +462,8 @@ video {
 
     }
     .box .opening {
-
+        top: 30%;
+        font-size: medium;
     }
     .Collage {
         width: 400px;
