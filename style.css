@@ -396,56 +396,117 @@ video {
 }
 .pictures {
     position: relative;
+    border: #d6249f 2px dashed;
 }
 .Collage {
     position: relative;
+    /*top: 30%;*/
+    left: 50%;
+    transform: translateX(-50%);
     border: #00acee 2px solid;
-    max-width: 1200px;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 600px;
+    height: 400px;
+    /*margin: 40px auto auto 40px;*/
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
 }
-.containSlider {
-    z-index: 3;
-    border: #d6249f 2px dashed;
-    position: relative;
-    width: 200px;
-    height: 150px;
-    transform-style: preserve-3d;
-    animation: rotate 30s linear infinite;
+.Collage .containSlider {
+    clip-path: circle(0% at 0 50%);
 }
-@keyframes rotate {
-    0% {
-        transform: perspective(1000px) rotateY(0deg);
-    }
-    100% {
-        transform: perspective(1000px) rotateY(360deg);
-    }
+.Collage .containSlider.active {
+    clip-path: circle(150% at 0 50%);
+    transition: 2s;
+    transition-property: clip-path;
 }
-.containSlider span {
+.Collage .navigation {
     z-index: 2;
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transform-origin: center;
-    transform-style: preserve-3d;
-    transform: rotateY(calc(var(--i)*45deg)) translateZ(350px);
+    display: flex;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
 }
-.containSlider span img {
+.Collage .navigation .btn {
+    background: rgba(255, 255, 255, 0.6);
+    width: 12px;
+    height: 12px;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.Collage .navigation .btn.active {
+    background: #2696E9;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+@media (max-width: 850px) {
+    .Collage {
+        width: 600px;
+        height: 350px;
+    }
+    .Collage .navigation {
+        bottom: 35px;
+    }
+    .Collage .navigation .btn {
+        width: 10px;
+        height: 10px;
+        margin: 8px;
+    }
+}
+@media (max-width: 650px) {
+    .Collage {
+        width: 400px;
+        height: 250px;
+    }
+    .Collage .navigation {
+        bottom: 25px;
+    }
+    .Collage .navigation .btn {
+        width: 8px;
+        height: 8px;
+        margin: 6px;
+    }
+}
+@media (max-width: 420px) {
+    .Collage {
+        width: 320px;
+        height: 200px;
+    }
+    .Collage .navigation {
+        bottom: 15px;
+    }
+    .Collage .navigation .btn {
+        width: 8px;
+        height: 8px;
+        margin: 6px;
+    }
+}
+.containSlider {
+    z-index: 1;
+    border: #d6249f 2px dashed;
+    position: absolute;
+    width: 100%;
+    height: 400px;
+}
+/*.containSlider span {*/
+/*    z-index: 2;*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*}*/
+.Collage .containSlider img {
     z-index: 1;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    border-radius: 20px;
-    border: #ff84e4 2px solid;
-    box-shadow: 0 0 7px -4px black;
-    object-fit: cover;
-    transition: 2s;
+    border-radius: 15px;
+    /*border: #ff84e4 2px solid;*/
+    /*box-shadow: 0 0 7px -4px black;*/
+    /*object-fit: cover;*/
 }
 .AboutTheSocietyBackground {
 }
