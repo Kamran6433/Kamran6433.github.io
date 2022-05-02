@@ -302,7 +302,7 @@ h2 {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     max-width: 350px;
     height: 350px;
-    border: lavender solid 4px;
+    border: #d6249f solid 4px;
     border-radius: 20px 20px 0 0;
     box-shadow: 0 6px 2px 1px rgba(0, 0, 255, .2);
 }
@@ -311,17 +311,18 @@ h2 {
     position: absolute;
     height: 62.5%;
     width: 100%;
-    border-bottom: lavender 2px solid;
-    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 95%, #e3eeff 100%);
-}
+    border-bottom: #d6249f 2px solid;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);}
 .swiper-slide img {
     position: absolute;
     left: 50%;
     top: 31%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
-    border: #d6249f 3px solid;
-    box-shadow: #d6249f 0 0 10px;
+    /*border: #d6249f 3px solid;*/
+    /*box-shadow: #d6249f 0 0 10px;*/
+    border: #fffBf1 3px solid;
+    box-shadow: #fffBf1 0 0 10px;
 }
 .cardContent {
     width: 270px;
@@ -332,10 +333,11 @@ h2 {
     top: 80%;
     transform: translate(-50%, -50%);
     font-size: large;
-    color: #d6249f;
+    color: #343434;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    border: #d6249f 2px solid;
+    /*border: #d6249f 2px solid;*/
+    border: #343434 2px solid;
     border-radius: 3px;
 }
 .events {
