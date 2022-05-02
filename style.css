@@ -428,6 +428,13 @@ video {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 @media (max-width: 850px) {
+    /*.box {*/
+    /*    width: 100%;*/
+    /*    height: 700px;*/
+    /*}*/
+    /*.box img {*/
+    /*    width: 100%;*/
+    /*}*/
     .Collage {
         width: 600px;
         height: 400px;
@@ -446,6 +453,14 @@ video {
     }
 }
 @media (max-width: 650px) {
+    .box {
+        width: 100%;
+        height: 550px;
+    }
+    .box img {
+        width: 100%;
+        height: 550px;
+    }
     .Collage {
         width: 400px;
         height: 250px;
@@ -464,6 +479,14 @@ video {
     }
 }
 @media (max-width: 420px) {
+    .box {
+        width: 100%;
+        height: 450px;
+    }
+    .box img {
+        width: 100%;
+        height: 450px;
+    }
     .Collage {
         width: 320px;
         height: 200px;
