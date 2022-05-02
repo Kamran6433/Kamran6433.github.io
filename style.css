@@ -352,7 +352,7 @@ h2 {
 
 }
 .bold {
-    color: #d6249f;
+    color: white;
     font-weight: bold;
 }
 .QawwaliNightBox {
@@ -362,8 +362,6 @@ h2 {
     flex-wrap: wrap;
     justify-content: center;
     font-family: 'Lato', sans-serif;
-}
-.OurEventsPicture {
 }
 #Chai {
     border-radius: 20px;
@@ -375,21 +373,19 @@ h2 {
 video {
     max-width: 85%;
     height: 350px;
-
-}
-.OurEventsVideo {
 }
 .flexHeader {
     border-radius: 5px;
     max-width: 500px;
 }
 .TextBox {
-    border: #d6249f solid 3px;
+    border: #fffBf1 solid 3px;
     padding: 20px;
     position: relative;
     top: 60px;
     border-radius: 10px;
-    background-color: white;
+    color: white;
+    background: linear-gradient(#d6249f, #ff2cbb);
     margin: auto 1% 1% 1%;
     text-align: left;
     box-shadow: 2px 2px 1px 1px rgba(0, 0, 255, .2);
@@ -440,6 +436,10 @@ video {
         width: 600px;
         height: 350px;
     }
+    .Collage .containSlider {
+        width: 100%;
+        height: 100%;
+    }
     .Collage .navigation {
         bottom: 35px;
     }
@@ -454,6 +454,10 @@ video {
         width: 400px;
         height: 250px;
     }
+    .Collage .containSlider {
+        width: 100%;
+        height: 100%;
+    }
     .Collage .navigation {
         bottom: 25px;
     }
@@ -467,6 +471,10 @@ video {
     .Collage {
         width: 320px;
         height: 200px;
+    }
+    .Collage .containSlider {
+        width: 100%;
+        height: 100%;
     }
     .Collage .navigation {
         bottom: 15px;
