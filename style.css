@@ -395,7 +395,7 @@ video {
     /*top: 30%;*/
     left: 50%;
     transform: translateX(-50%);
-    border: #00acee 2px solid;
+    /*border: #00acee 2px solid;*/
     width: 600px;
     height: 400px;
     /*margin: 40px auto auto 40px;*/
@@ -434,7 +434,7 @@ video {
 @media (max-width: 850px) {
     .Collage {
         width: 600px;
-        height: 350px;
+        height: 400px;
     }
     .Collage .containSlider {
         width: 100%;
@@ -487,7 +487,7 @@ video {
 }
 .containSlider {
     z-index: 1;
-    border: #d6249f 2px dashed;
+    /*border: #d6249f 2px dashed;*/
     position: absolute;
     width: 100%;
     height: 100%;
@@ -508,8 +508,8 @@ video {
     width: 100%;
     height: 100%;
     border-radius: 15px;
-    /*border: #ff84e4 2px solid;*/
-    /*box-shadow: 0 0 7px -4px black;*/
+    border: #fffBf1 solid 4px;
+    box-shadow: 3px 3px 1px 1px rgba(0, 0, 255, .2);
     /*object-fit: cover;*/
 }
 .AboutTheSocietyBackground {
