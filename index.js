@@ -23,9 +23,9 @@ function scanElements(e) {
     console.count(e);
     aosElements.forEach(element => {
         if(isVisible(element)) {
-            element.classList.add('active');
+            element.classList.add('acts');
         } else {
-            element.classList.remove('active');
+            element.classList.remove('acts');
         }
     })
 }
