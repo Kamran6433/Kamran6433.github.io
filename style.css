@@ -394,10 +394,6 @@ video {
     text-align: left;
     box-shadow: 2px 2px 1px 1px rgba(0, 0, 255, .2);
 }
-.pictures {
-    position: relative;
-    border: #d6249f 2px dashed;
-}
 .Collage {
     position: relative;
     /*top: 30%;*/

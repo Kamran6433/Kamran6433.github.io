@@ -97,7 +97,7 @@ var repeat = function(activeClass) {
                 return;
             }
             repeater();
-        }, 1000);
+        }, 4000);
     }
     repeater();
 }
