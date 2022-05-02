@@ -14,41 +14,6 @@ function changeImg() {
 }
 window.onload = changeImg;
 
-
-const aosElements = Array.from(document.querySelectorAll('.aos'));
-
-window.addEventListener('scroll', throttle(scanElements, 50))
-
-function scanElements(e) {
-    console.count(e);
-    aosElements.forEach(element => {
-        if(isVisible(element)) {
-            element.classList.add('acts');
-        } else {
-            element.classList.remove('acts');
-        }
-    })
-}
-
-function isVisible(element) {
-    const elementDiv = element.getBoundingClientRect();
-    let distanceFromTop = 50;
-    return elementDiv.top - window.innerHeight < distanceFromTop;
-}
-
-function throttle(fn, delay) {
-    let lastCall = 0;
-    return (...args) => {
-        let context = this;
-        let current = new Date().getTime();
-        if (current - lastCall < delay) {
-            return
-        }
-        lastCall = current;
-        return fn.apply(context, ...args);
-    }
-}
-
 var slides = document.querySelectorAll('.containSlider');
 var btns = document.querySelectorAll('.btn');
 let currentSlide = 1;
@@ -102,6 +67,40 @@ var repeat = function(activeClass) {
     repeater();
 }
 repeat();
+
+const aosElements = Array.from(document.querySelectorAll('.aos'));
+
+window.addEventListener('scroll', throttle(scanElements, 50))
+
+function scanElements(e) {
+    console.count(e);
+    aosElements.forEach(element => {
+        if(isVisible(element)) {
+            element.classList.add('acts');
+        } else {
+            element.classList.remove('acts');
+        }
+    })
+}
+
+function isVisible(element) {
+    const elementDiv = element.getBoundingClientRect();
+    let distanceFromTop = 50;
+    return elementDiv.top - window.innerHeight < distanceFromTop;
+}
+
+function throttle(fn, delay) {
+    let lastCall = 0;
+    return (...args) => {
+        let context = this;
+        let current = new Date().getTime();
+        if (current - lastCall < delay) {
+            return
+        }
+        lastCall = current;
+        return fn.apply(context, ...args);
+    }
+}
 
 var swiper = new Swiper(".mySwiper", {
     spaceBetween: 70,
