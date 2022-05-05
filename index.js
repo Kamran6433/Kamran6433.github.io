@@ -55,7 +55,7 @@ var repeat = function(activeClass) {
             btns[i].classList.add('active');
             i++;
 
-            if(slides.length == i) {
+            if(slides.length === i) {
                 i = 0;
             }
             if(i >= slides.length) {
