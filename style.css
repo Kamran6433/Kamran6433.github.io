@@ -32,20 +32,20 @@ form {
     box-shadow: 0 3px 2px 1px rgba(0, 0, 255, .2);
     padding: 10px;
 }
-.comingSoon {
-    font-family: 'Lato', sans-serif;
-    top: 58%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    width: 430px;
-    height: 250px;
-    background-color: #343434;
-    opacity: 0.5;
-    border-radius: 5px;
-    margin: auto;
-    color: white;
-}
+/*.comingSoon {*/
+/*    font-family: 'Lato', sans-serif;*/
+/*    top: 58%;*/
+/*    left: 50%;*/
+/*    transform: translate(-50%, -50%);*/
+/*    position: absolute;*/
+/*    width: 430px;*/
+/*    height: 250px;*/
+/*    background-color: #343434;*/
+/*    opacity: 0.5;*/
+/*    border-radius: 5px;*/
+/*    margin: auto;*/
+/*    color: white;*/
+/*}*/
 footer {
     bottom: 0;
     left: 0;
@@ -120,7 +120,7 @@ footer {
     width: 40px;
     border: white solid;
     border-radius: 10px;
-    box-shadow: 2px 2px 1px 1px rgba(0, 0, 255, .2);
+    box-shadow: -2px 2px 1px 1px #0090d0;
     cursor: pointer;
 }
 .talkButton::before {
