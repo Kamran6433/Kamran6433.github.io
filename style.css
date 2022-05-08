@@ -505,7 +505,7 @@ video {
     }
     .opening {
         top: 40%;
-        font-size: x-large;
+        font-size: larger;
     }
     .Collage {
         width: 320px;
