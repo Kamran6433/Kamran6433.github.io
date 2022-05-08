@@ -78,6 +78,7 @@ footer {
     top: 0;
     left: 0;
     right: 0;
+    border-top: #e6e6e6 1px solid;
     border-bottom: #e6e6e6 1px solid;
     text-align: center;
     position: fixed;
