@@ -230,12 +230,12 @@ a.Linktree {
     /*border-bottom: none;*/
     width: 100%;
     text-decoration: none;
-    background-image: linear-gradient(to right, #00acee, #0094cd);
+    color: #fffBf1;
+    background-image: linear-gradient(to right, #00bfb6, #00bfb6);
     font-size: x-large;
     padding: 35px;
     font-family: arial, sans-serif;
     font-weight: bold;
-    color: #fffBf1;
     transition: 0.3s ease-in;
 }
 a.Linktree:hover {
@@ -252,7 +252,7 @@ a.NUSU {
     padding: 35px;
     text-decoration: none;
     color: #fffBf1;
-    background-image: linear-gradient(to right, #343434, #232323);
+    background-image: linear-gradient(to right, #00acee, #0094cd);
     text-align: center;
     transition: 0.3s ease-in;
 }
