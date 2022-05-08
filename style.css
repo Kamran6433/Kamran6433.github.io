@@ -312,7 +312,8 @@ h2 {
 /*    color: mediumseagreen;*/
 /*}*/
 .outerCard {
-    background-image: linear-gradient(#fffBf1, lavender, white);
+    margin-top: -20px;
+    background-image: linear-gradient(#fffBf1, lavender);
     position: relative;
     z-index: 0;
     padding: 0;
@@ -424,6 +425,7 @@ video {
     transform: translateX(-50%);
     width: 600px;
     height: 400px;
+    margin-bottom: 50px;
 }
 .Collage .containSlider {
     clip-path: circle(0% at 0 50%);
@@ -567,8 +569,8 @@ video {
     width: 100%;
     height: 100%;
     border-radius: 15px;
-    border: #fffBf1 solid 4px;
-    box-shadow: 3px 3px 1px 1px rgba(0, 0, 255, .2);
+    /*border: #fffBf1 solid 4px;*/
+    box-shadow: -10px 10px 1px 1px rgba(0, 0, 255, .2);
 }
 .sideTab {
     color: white;
