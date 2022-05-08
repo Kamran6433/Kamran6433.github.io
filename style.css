@@ -229,6 +229,8 @@ footer {
     transition: 0.7s ease-in;
 }
 .Linktree {
+    border: black 2px solid;
+    border-bottom: none;
     width: 100%;
     text-decoration: none;
     background-image: linear-gradient(to right, #00acee, #0094cd);
@@ -244,6 +246,7 @@ footer {
     background: linear-gradient(to right, #fffBf1, #fffBf1);
 }
 a.NUSU {
+    border: black 2px solid;
     width: 100%;
     font-family: arial, sans-serif;
     font-weight: bold;
@@ -266,6 +269,8 @@ a.NUSU:hover {
     background: #fffBf1;
 }
 .instagram {
+    border: black 2px solid;
+    border-bottom: none;
     font-family: arial, sans-serif;
     background: linear-gradient(#d6249f, #ff2cbb);
     font-weight: bold;
