@@ -134,6 +134,7 @@ footer {
     bottom: -12px;
 }
 .AllButtons {
+    transform: translateY(-3px);
     height: 312px;
     max-width: 1200px;
     position: relative;
