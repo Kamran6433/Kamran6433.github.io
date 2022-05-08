@@ -241,7 +241,7 @@ footer {
 .Linktree:hover {
     color: #343434;
     transition-duration: 0.3s;
-    background: linear-gradient(to right, white, white);
+    background: linear-gradient(to right, #fffBf1, #fffBf1);
 }
 a.NUSU {
     width: 100%;
@@ -258,12 +258,12 @@ a.NUSU {
 a.NUSU:hover {
     color: #343434;
     transition-duration: 0.3s;
-    background: white;
+    background: #fffBf1;
 }
 .instagram:hover {
     color: #343434;
     transition-duration: 0.3s;
-    background: white;
+    background: #fffBf1;
 }
 .instagram {
     font-family: arial, sans-serif;
