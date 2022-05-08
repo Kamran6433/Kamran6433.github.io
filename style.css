@@ -443,6 +443,10 @@ video {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 @media (max-width: 950px) {
+    .box .opening {
+        top: 50%;
+        font-size: larger;
+    }
     .Collage {
         width: 900px;
         height: 550px;
@@ -472,9 +476,9 @@ video {
     .box a {
 
     }
-    .box .opening {
-        top: 30%;
-        font-size: medium;
+    .opening {
+        top: 40%;
+        font-size: larger;
     }
     .Collage {
         width: 400px;
@@ -505,9 +509,9 @@ video {
     .box a {
 
     }
-    .box .opening {
-        top: 30%;
-        font-size: small;
+    .opening {
+        top: 40%;
+        font-size: medium;
     }
     .Collage {
         width: 320px;
