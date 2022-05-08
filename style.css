@@ -320,7 +320,7 @@ h2 {
     position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    max-width: 350px;
+    max-width: 340px;
     height: 350px;
     border-radius: 0 0 20px 20px;
     border: #fffBf1 solid 4px;
