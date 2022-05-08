@@ -227,8 +227,6 @@ footer {
     transition: 0.7s ease-in;
 }
 a.Linktree {
-    /*border: black 2px solid;*/
-    /*border-bottom: none;*/
     width: 100%;
     text-decoration: none;
     color: #fffBf1;
@@ -245,7 +243,6 @@ a.Linktree:hover {
     background: #fffBf1;
 }
 a.NUSU {
-    /*border: black 2px solid;*/
     width: 100%;
     font-family: arial, sans-serif;
     font-weight: bold;
@@ -268,8 +265,6 @@ a.instagram:hover {
     background: #fffBf1;
 }
 a.instagram {
-    /*border: black 2px solid;*/
-    /*border-bottom: none;*/
     font-family: arial, sans-serif;
     background: linear-gradient(#d6249f, #ff2cbb);
     font-weight: bold;
@@ -300,12 +295,11 @@ h2 {
     color: #d6249f;
     text-align: center;
     font-size: xx-large;
-    margin: 5% auto auto auto;
+    margin: 0 auto 10px auto;
 }
 #AboutTheSociety {
     color: #fffBf1;
     max-width: 500px;
-    /*padding-bottom: 1px;*/
     margin: auto auto 20px auto;
 }
 #about {
@@ -317,7 +311,7 @@ h2 {
 /*}*/
 .outerCard {
     margin-top: -20px;
-    background-image: linear-gradient(#fffBf1, lavender);
+    background: #fffBf1;
     position: relative;
     z-index: 0;
     padding: 0;
@@ -413,7 +407,7 @@ video {
     border-radius: 10px;
     color: white;
     background: linear-gradient(#d6249f, #ff2cbb);
-    margin: auto 2% 1% 2%;
+    margin: auto 3% 1% 3%;
     text-align: left;
     border: #fffBf1 solid 3px;
     box-shadow: -7px 7px 1px 1px #c22591;
@@ -455,15 +449,6 @@ video {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 @media (max-width: 100vw) {
-    /*.NUSU {*/
-    /*    width: 800px;*/
-    /*}*/
-    /*.instagram {*/
-    /*    width: 800px;*/
-    /*}*/
-    /*.Linktree {*/
-    /*    width: 800px;*/
-    /*}*/
     .opening {
         top: 47%;
         font-size: xx-large;
@@ -486,15 +471,6 @@ video {
     }
 }
 @media (max-width: 950px) {
-    /*.NUSU {*/
-    /*    width: 800px;*/
-    /*}*/
-    /*.instagram {*/
-    /*    width: 800px;*/
-    /*}*/
-    /*.Linktree {*/
-    /*    width: 800px;*/
-    /*}*/
     .box {
         width: 100%;
         height: 550px;
