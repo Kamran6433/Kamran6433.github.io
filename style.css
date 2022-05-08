@@ -319,23 +319,24 @@ h2 {
     padding: 0;
 }
 .swiper {
-    background-color: white;
+    background-color: ;
     position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     max-width: 350px;
     height: 350px;
-    border: #d6249f solid 4px;
-    border-radius: 20px 20px 0 0;
-    box-shadow: 0 6px 2px 1px rgba(0, 0, 255, .2);
+    border-radius: 0 0 20px 20px;
+    border: #fffBf1 solid 2px;
+    box-shadow: -10px 10px 1px 1px #00aba2;
 }
 .swiper::before {
     content: "";
     position: absolute;
     height: 62.5%;
     width: 100%;
-    border-bottom: #d6249f 2px solid;
-    background-image: linear-gradient(to right, #434343 0%, black 100%);}
+    border-bottom: #fffBf1 2px solid;
+    background-image: linear-gradient(to right, #00bfb6 0%, #00aba2 100%);
+}
 .swiper-slide img {
     position: absolute;
     left: 50%;
@@ -396,8 +397,8 @@ h2 {
     border-radius: 20px;
     max-width: 80%;
     height: 450px;
-    border: #fffBf1 3px solid;
-    box-shadow: 2px 2px 1px 1px rgba(0, 0, 255, .2);
+    border: #fffBf1 solid 1px;
+    box-shadow: -10px 10px 1px 1px #c22591;
 }
 video {
     max-width: 85%;
@@ -408,7 +409,6 @@ video {
     max-width: 500px;
 }
 .TextBox {
-    border: #fffBf1 solid 3px;
     padding: 20px;
     position: relative;
     top: 60px;
@@ -417,7 +417,8 @@ video {
     background: linear-gradient(#d6249f, #ff2cbb);
     margin: auto 1% 1% 1%;
     text-align: left;
-    box-shadow: 2px 2px 1px 1px rgba(0, 0, 255, .2);
+    border: #fffBf1 solid 1px;
+    box-shadow: -7px 7px 1px 1px #c22591;
 }
 .Collage {
     position: relative;
@@ -569,8 +570,8 @@ video {
     width: 100%;
     height: 100%;
     border-radius: 15px;
-    /*border: #fffBf1 solid 4px;*/
-    box-shadow: -10px 10px 1px 1px rgba(0, 0, 255, .2);
+    border: #fffBf1 solid 1px;
+    box-shadow: -10px 10px 1px 1px #00aba2;
 }
 .sideTab {
     color: white;
