@@ -2,6 +2,10 @@
 /*Give the website a Logo for the URL*/
 /*color split 60/20/10*/
 /*mix the colors up in that split ^*/
+
+/*padding: 0;*/
+/*margin: 0;*/
+/*^^ to make the website touch the edges*/
 html {
 }
 /*.instagram-hub {*/
@@ -12,6 +16,8 @@ html {
 body {
     background-color: white;
     overflow-x: hidden;
+    padding: 0;
+    margin: 0;
 }
 form {
     position: relative;
