@@ -280,6 +280,15 @@ a.instagram {
     transition: 0.3s ease-in;
     width: 100%;
 }
+#NUSU {
+    border-bottom: #0090d0 3px solid;
+}
+#instagram {
+    border-bottom: #c22591 3px solid;
+}
+#linktree {
+    border-bottom: #00aba2 3px solid;
+}
 .fa-envelope {
     color: white;
 }
@@ -299,9 +308,9 @@ h2 {
     padding-bottom: 20px;
     margin: auto auto 20px auto;
 }
-.SignUp {
-    color: mediumseagreen;
-}
+/*.SignUp {*/
+/*    color: mediumseagreen;*/
+/*}*/
 .outerCard {
     background-image: linear-gradient(#fffBf1, lavender, white);
     position: relative;
