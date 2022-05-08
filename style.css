@@ -134,12 +134,12 @@ footer {
     bottom: -12px;
 }
 .AllButtons {
-    width: 80vw;
-    /*height: 75%;*/
+    height: 312px;
+    max-width: 1200px;
     position: relative;
-    /*top: 50%;*/
-    /*left: 50%;*/
-    /*transform: translate(-50%, -50%);*/
+    display: flex;
+    flex-flow: column;
+    /*border: 2px red dashed;*/
 }
 .opening {
     position: absolute;
@@ -153,9 +153,9 @@ footer {
 }
 .button{
     /*top: 50%;*/
-    /*position: relative;*/
-    /*display: inline-flex;*/
-    /*flex-direction: row;*/
+    position: relative;
+    display: inline-flex;
+    flex-direction: row;
 }
 .image-box {
     display: flex;
@@ -216,7 +216,7 @@ footer {
     transform: translate(-50%, 50px);
     box-shadow: 2px 2px 1px 1px rgba(0, 0, 255, .2);
     transition: 0.7s ease-out;
-    margin: 40px 30px auto 0px;
+    margin: 40px 30px auto 0;
     border-radius: 0 0 20px 0;
 }
 .aos.acts {
@@ -225,16 +225,18 @@ footer {
     transition: 0.7s ease-in;
 }
 .Linktree {
+    width: 100%;
     text-decoration: none;
-    background: linear-gradient(45deg, #aaf0d1 0%, #1be998 100%);
-    padding: 10px;
+    background-image: linear-gradient(to right, #00acee, #0094cd);
+    padding: 40px;
     font-family: arial, sans-serif;
     font-weight: bold;
-    color: mediumpurple;
-    border: white solid;
+    color: #fffBf1;
 }
 .Linktree:hover {
-    opacity: 0.9;
+    color: #343434;
+    transition-duration: 0.3s;
+    background: linear-gradient(to right, white, white);
 }
 /*.b3 {*/
 /*    top: 80%;*/
@@ -243,42 +245,36 @@ footer {
 /*    transform: translate(-50%, -50%);*/
 /*}*/
 a.NUSU {
-    width: 70%;
-    height: 36px;
+    width: 100%;
     font-family: arial, sans-serif;
     font-weight: bold;
-    border: white solid;
     text-decoration: none;
     color: white;
     background-color: #343434;
-    padding: 8px;
+    padding: 40px;
     text-align: center;
-    margin: auto;
+    /*margin: auto;*/
     transition: 0.3s ease-in;
 }
 a.NUSU:hover {
-    border: #343434 solid;
     color: #343434;
     transition-duration: 0.3s;
-    background-color: white;
+    background: white;
 }
 .fa-instagram:hover {
-    border: #343434 solid;
     color: #343434;
     transition-duration: 0.3s;
     background: white;
 }
 .fa-instagram {
     font-family: arial, sans-serif;
-    border: white solid;
-    background-color: #343434;
-    padding: 8px;
+    background: linear-gradient(#d6249f, #ff2cbb);
+    padding: 50px;
     color: white;
     text-align: center;
     text-decoration: none;
     transition: 0.3s ease-in;
-    width: 70%;
-    height: 35px;
+    width: 100%;
     position: relative;
 }
 .fa-envelope {
