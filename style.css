@@ -305,9 +305,12 @@ h2 {
 #AboutTheSociety {
     color: #fffBf1;
     max-width: 500px;
-    box-shadow: 0 3px 0 0 #343434;
-    padding-bottom: 20px;
+    /*padding-bottom: 1px;*/
     margin: auto auto 20px auto;
+}
+#about {
+    padding-bottom: 5px;
+    border-bottom: #0090d0 3px solid;
 }
 /*.SignUp {*/
 /*    color: mediumseagreen;*/
