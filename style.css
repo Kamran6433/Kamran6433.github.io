@@ -232,7 +232,8 @@ footer {
     width: 100%;
     text-decoration: none;
     background-image: linear-gradient(to right, #00acee, #0094cd);
-    padding: 40px;
+    font-size: x-large;
+    padding: 35px;
     font-family: arial, sans-serif;
     font-weight: bold;
     color: #fffBf1;
@@ -242,22 +243,16 @@ footer {
     transition-duration: 0.3s;
     background: linear-gradient(to right, white, white);
 }
-/*.b3 {*/
-/*    top: 80%;*/
-/*    position: absolute;*/
-/*    left: 50%;*/
-/*    transform: translate(-50%, -50%);*/
-/*}*/
 a.NUSU {
     width: 100%;
     font-family: arial, sans-serif;
     font-weight: bold;
+    font-size: x-large;
+    padding: 35px;
     text-decoration: none;
-    color: white;
+    color: #fffBf1;
     background-color: #343434;
-    padding: 40px;
     text-align: center;
-    /*margin: auto;*/
     transition: 0.3s ease-in;
 }
 a.NUSU:hover {
@@ -265,16 +260,18 @@ a.NUSU:hover {
     transition-duration: 0.3s;
     background: white;
 }
-.fa-instagram:hover {
+.instagram:hover {
     color: #343434;
     transition-duration: 0.3s;
     background: white;
 }
-.fa-instagram {
+.instagram {
     font-family: arial, sans-serif;
     background: linear-gradient(#d6249f, #ff2cbb);
-    padding: 40px;
-    color: white;
+    font-weight: bold;
+    font-size: x-large;
+    padding: 35px;
+    color: #fffBf1;
     text-align: center;
     text-decoration: none;
     transition: 0.3s ease-in;
