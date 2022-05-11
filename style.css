@@ -445,11 +445,6 @@ video {
     background: #00acee;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-@media (orientation: landscape) {
-    .opening {
-        top: 70%;
-    }
-}
 @media screen and (max-width: 1100px) {
     .opening {
         top: 35%;
