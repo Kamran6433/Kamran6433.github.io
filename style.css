@@ -447,12 +447,12 @@ video {
 }
 @media (orientation: landscape) {
     .opening {
-        top: 40%;
+        top: 70%;
     }
 }
 @media screen and (max-width: 1100px) {
     .opening {
-        top: 70%;
+        top: 35%;
         font-size: xx-large;
     }
     .Collage {
