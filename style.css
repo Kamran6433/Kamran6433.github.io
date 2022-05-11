@@ -452,7 +452,7 @@ video {
 }
 @media screen and (max-width: 1100px) {
     .opening {
-        top: 35%;
+        top: 70%;
         font-size: xx-large;
     }
     .Collage {
