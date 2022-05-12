@@ -413,8 +413,8 @@ video {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    width: 600px;
-    height: 400px;
+    width: 900px;
+    height: 600px;
     margin-bottom: 50px;
 }
 .Collage .containSlider {
@@ -452,7 +452,7 @@ video {
     }
     .Collage {
         width: 900px;
-        height: 550px;
+        height: 600px;
     }
     .Collage .containSlider {
         width: 100%;
@@ -467,7 +467,7 @@ video {
         margin: 8px;
     }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
     .box {
         width: 100%;
         height: 550px;
@@ -573,16 +573,6 @@ video {
     color: #fff;
     font-family: arial, sans-serif;
 }
-/*.notification:before {*/
-/*    content: "";*/
-/*    position: absolute;*/
-/*    border-left: 10px solid transparent;*/
-/*    border-right: 10px solid #00bfb6;*/
-/*    border-top: 10px solid #00bfb6;*/
-/*    border-bottom: 10px solid transparent;*/
-/*    right: 19px;*/
-/*    bottom: -19px;*/
-/*}*/
 .notification p {
     color: #fffBf1;
     padding: 1px;
