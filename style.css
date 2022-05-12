@@ -147,7 +147,7 @@ footer {
     transform: translate(-50%, -50%);
     font-family: 'Montserrat', sans-serif;
     font-size: xx-large;
-    color: white;
+    color: #fffBf1;
     text-shadow: 0 0 5px #000000;
 }
 .button{
@@ -559,13 +559,13 @@ video {
 .notification {
     display: flex;
     position: fixed;
-    z-index: 10;
+    z-index: 5;
     bottom: 60%;
-    right: 10px;
+    right: 2%;
     width: 150px;
-    height: 110px;
-    border: #343434 2px solid;
-    border-radius: 10px 10px 0 10px;
+    height: 90px;
+    border: #fffBf1 2px solid;
+    border-radius: 20px 20px 0 20px;
     background: #00bfb6;
     text-align: center;
     font-weight: 800;
@@ -573,17 +573,18 @@ video {
     color: #fff;
     font-family: arial, sans-serif;
 }
-.notification:before {
-    content: "";
-    position: absolute;
-    border-left: 10px solid transparent;
-    border-right: 10px solid #00bfb6;
-    border-top: 10px solid #00bfb6;
-    border-bottom: 10px solid transparent;
-    right: 19px;
-    bottom: -19px;
-}
+/*.notification:before {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    border-left: 10px solid transparent;*/
+/*    border-right: 10px solid #00bfb6;*/
+/*    border-top: 10px solid #00bfb6;*/
+/*    border-bottom: 10px solid transparent;*/
+/*    right: 19px;*/
+/*    bottom: -19px;*/
+/*}*/
 .notification p {
+    color: #fffBf1;
     padding: 1px;
     position: relative;
     display: flex;
