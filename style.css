@@ -354,6 +354,22 @@ h2 {
     justify-content: center;
     font-family: 'Lato', sans-serif;
 }
+.FlexHeader {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    color: #343434;
+    font-size: larger;
+}
+#ChaiAndChill {
+    padding: 2px;
+    border-bottom: #c22591 2px solid;
+}
+#QawwaliNight {
+    padding: 5px;
+    border-bottom: #c22591 2px solid;
+}
 #Chai {
     border-radius: 20px;
     max-width: 80%;
