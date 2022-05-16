@@ -397,6 +397,13 @@ video {
     border: #fffBf1 solid 3px;
     box-shadow: -7px 7px 2px 1px #c22591;
 }
+.pictures {
+    background-color: #00bfb6;
+    padding: 1px 50px 50px 50px;
+}
+#LetsMakeMemories {
+    color: #fffBf1;
+}
 .Collage {
     position: relative;
     left: 50%;
@@ -538,7 +545,7 @@ video {
 .AboutTheSocietyBackground {
     background-color: #00acee;
     background-image: linear-gradient(to right, #00acee, #0094cd);
-    padding: 10px;
+    padding: 1px 50px 50px 50px;
 }
 .aos p{
     left: 50%;
