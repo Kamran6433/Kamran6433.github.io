@@ -336,10 +336,13 @@ h2 {
     padding: 1px 50px 50px 50px;
 }
 #OurEvents {
-    border: #343434 2px solid;
+    border: #d6249f 2px solid;
+    position: relative;
+    width: 300px;
+    height: 100px;
     color: #fffBf1;
-    padding-bottom: 0;
-    border-bottom: #0090d0 3px solid;
+    padding: 0;
+    border-bottom: #c22591 3px solid;
 }
 .OurEventsFlexBox {
     display: flex;
