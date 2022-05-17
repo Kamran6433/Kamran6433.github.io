@@ -333,10 +333,10 @@ h2 {
 }
 .events {
     background-color: #d6249f;
-    padding: 1px 50px 50px 50px;
+    padding: 1px 20px 50px 20px;
 }
 #OurEvents {
-    border: #d6249f 2px solid;
+    border: #d6249f 1px solid;
     position: relative;
     width: 300px;
     height: 100px;
@@ -416,7 +416,7 @@ video {
 }
 .pictures {
     background-color: #00bfb6;
-    padding: 1px 50px 50px 50px;
+    padding: 1px 20px 50px 20px;
 }
 #LetsMakeMemories {
     color: #fffBf1;
@@ -562,7 +562,7 @@ video {
 .AboutTheSocietyBackground {
     background-color: #00acee;
     background-image: linear-gradient(to right, #00acee, #0094cd);
-    padding: 1px 50px 50px 50px;
+    padding: 1px 20px 50px 20px;
 }
 .aos p{
     left: 50%;
