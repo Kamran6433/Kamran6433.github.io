@@ -420,6 +420,12 @@ video {
 }
 #LetsMakeMemories {
     color: #fffBf1;
+    border: #00bfb6 1px solid;
+    position: relative;
+    width: 550px;
+    height: 100px;
+    padding: 0;
+    border-bottom: #00aba2 3px solid;
 }
 .Collage {
     position: relative;
@@ -554,6 +560,16 @@ video {
         width: 8px;
         height: 8px;
         margin: 6px;
+    }
+}
+@media (max-width: 560px) {
+    #LetsMakeMemories {
+        color: #fffBf1;
+        border: #00bfb6 1px solid;
+        position: relative;
+        width: 400px;
+        height: 160px;
+        border-bottom: #00aba2 3px solid;
     }
 }
 .aos {
