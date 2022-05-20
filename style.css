@@ -422,7 +422,7 @@ video {
     color: #fffBf1;
     border: #00bfb6 1px solid;
     position: relative;
-    width: 550px;
+    width: 500px;
     height: 100px;
     padding: 0;
     border-bottom: #00aba2 3px solid;
@@ -562,13 +562,13 @@ video {
         margin: 6px;
     }
       #LetsMakeMemories {
-        width: 300px;
+        width: 270px;
         height: 160px;
     }
 }
 @media (max-width: 560px) {
     #LetsMakeMemories {
-        width: 400px;
+        width: 270px;
         height: 160px;
     }
 }
