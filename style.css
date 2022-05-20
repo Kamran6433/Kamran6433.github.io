@@ -561,15 +561,15 @@ video {
         height: 8px;
         margin: 6px;
     }
+      #LetsMakeMemories {
+        width: 300px;
+        height: 160px;
+    }
 }
 @media (max-width: 560px) {
     #LetsMakeMemories {
-        color: #fffBf1;
-        border: #00bfb6 1px solid;
-        position: relative;
         width: 400px;
         height: 160px;
-        border-bottom: #00aba2 3px solid;
     }
 }
 .aos {
