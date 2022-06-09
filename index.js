@@ -1,12 +1,5 @@
 const background = document.querySelectorAll(".image");
 let i = 0;
-// myFunction();
-// function myFunction() {
-//     document.getElementById("NUPS").innerHTML = "NUPS";
-// }
-// if (innerWidth < 600) {
-//     document.getElementsByClassName("NUPS").innerHTML = "NUPS";
-// }
 function changeImg() {
     background[i].classList.remove("showing");
     i++;
