@@ -272,7 +272,7 @@ h2 {
 .swiper {
     position: relative;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     max-width: 340px;
     height: 350px;
     border-radius: 0 0 20px 20px;
